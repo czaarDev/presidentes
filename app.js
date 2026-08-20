@@ -1,18 +1,21 @@
 let DADOS = null;
 let GOV = null;
+let BUS = null;
 let temaAtivo = "Todos";
 let modo = "lista";
 let ladoA = null;
 let ladoB = null;
-const busSel = new Set();
+const busResp = {}; // id da pergunta -> -1 | 0 | 1
 
 async function carregar() {
-  const [cRes, gRes] = await Promise.all([
+  const [cRes, gRes, bRes] = await Promise.all([
     fetch("data/candidatos.json"),
     fetch("data/governo.json"),
+    fetch("data/bussola.json"),
   ]);
   DADOS = await cRes.json();
   GOV = await gRes.json();
+  BUS = await bRes.json();
 
   document.getElementById("atualizado").textContent = formatarData(DADOS.atualizadoEm);
 
@@ -29,7 +32,7 @@ async function carregar() {
   montarModos();
   montarSeletoresX1();
   renderGoverno();
-  montarBussolaTemas();
+  montarPerguntas();
   render();
 }
 
@@ -49,6 +52,14 @@ function iniciais(nome) {
 }
 function corDe(c) {
   return c.cor || "var(--ink)";
+}
+function embaralhar(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
 }
 function faceEl(c, classe) {
   return c.foto
@@ -336,66 +347,91 @@ function renderGoverno() {
     .join("");
 }
 
-/* ---------- Bússola do voto ---------- */
-function montarBussolaTemas() {
-  const wrap = document.getElementById("busTemas");
-  wrap.innerHTML = DADOS.temas
-    .map((t) => `<button class="bus-tema" data-tema="${t}" aria-pressed="false">${t}</button>`)
+/* ---------- Bússola do voto (afinidade) ---------- */
+const OPCOES = [
+  { v: 1, rot: "Concordo" },
+  { v: 0, rot: "Tanto faz" },
+  { v: -1, rot: "Discordo" },
+];
+
+function montarPerguntas() {
+  const wrap = document.getElementById("busPerguntas");
+  wrap.innerHTML = BUS.perguntas
+    .map(
+      (q, i) => `
+      <div class="bus-q">
+        <p class="bus-q-txt"><span class="bus-q-num">${i + 1}</span> ${q.texto}</p>
+        <div class="bus-opts" role="group" aria-label="${q.texto}">
+          ${OPCOES.map(
+            (o) =>
+              `<button class="bus-opt" data-q="${q.id}" data-v="${o.v}" aria-pressed="false">${o.rot}</button>`
+          ).join("")}
+        </div>
+      </div>`
+    )
     .join("");
+
   wrap.addEventListener("click", (e) => {
-    const btn = e.target.closest(".bus-tema");
+    const btn = e.target.closest(".bus-opt");
     if (!btn) return;
-    const t = btn.dataset.tema;
-    if (busSel.has(t)) busSel.delete(t);
-    else busSel.add(t);
-    btn.setAttribute("aria-pressed", busSel.has(t));
+    const q = btn.dataset.q;
+    const v = Number(btn.dataset.v);
+    busResp[q] = busResp[q] === v ? undefined : v; // clicar de novo desmarca
+    wrap.querySelectorAll(`.bus-opt[data-q="${q}"]`).forEach((b) => {
+      const on = Number(b.dataset.v) === busResp[q];
+      b.classList.toggle("ativo", on);
+      b.setAttribute("aria-pressed", on);
+    });
     renderBussola();
   });
 }
 
+function afinidade(c) {
+  const pos = BUS.posicoes[c.id] || {};
+  let n = 0,
+    soma = 0;
+  BUS.perguntas.forEach((q) => {
+    const u = busResp[q.id];
+    if (u === undefined || u === 0) return; // só conta onde o usuário tem opinião
+    n += 1;
+    soma += u * (pos[q.id] || 0); // +1 concorda, -1 discorda, 0 candidato neutro
+  });
+  if (n === 0) return null;
+  return { pct: Math.round(((soma + n) / (2 * n)) * 100), n };
+}
+
 function renderBussola() {
   const alvo = document.getElementById("busResultado");
-  const temas = [...busSel];
-  if (temas.length === 0) {
-    alvo.innerHTML = `<div class="bus-empty">Escolha ao menos um tema acima para ver o ranking.</div>`;
+  const respondidas = Object.values(busResp).filter((v) => v === 1 || v === -1).length;
+  if (respondidas === 0) {
+    alvo.innerHTML = `<div class="bus-empty">Responda pelo menos uma afirmação acima para ver sua afinidade com cada candidato.</div>`;
     return;
   }
 
-  const lista = candidatosValidos()
-    .map((c) => {
-      const porTema = temas.map((t) => ({ tema: t, itens: (c.propostas && c.propostas[t]) || [] }));
-      return { c, porTema };
-    })
-    .sort((a, b) => a.c.nome.localeCompare(b.c.nome, "pt"));
+  const rank = candidatosValidos()
+    .map((c) => ({ c, af: afinidade(c) }))
+    .filter((r) => r.af)
+    .sort((a, b) => b.af.pct - a.af.pct || a.c.nome.localeCompare(b.c.nome, "pt"));
 
-  alvo.innerHTML = `<div class="bus-rank">${lista
-    .map((r) => {
-      const props = r.porTema
-        .map(
-          (pt) => `
-        <div>
-          <div class="bus-prop-tema">${pt.tema}</div>
-          ${
-            pt.itens.length
-              ? pt.itens.map((p) => `<div class="bus-prop">${p}</div>`).join("")
-              : `<div class="bus-vazio-tema">Sem proposta neste tema.</div>`
-          }
-        </div>`
-        )
-        .join("");
-      return `
-      <article class="bus-card" style="--cor:${corDe(r.c)}">
+  alvo.innerHTML = `
+    <p class="bus-rank-nota">Ordenado por afinidade com as suas ${respondidas} resposta(s). Empates aparecem juntos — e afinidade alta não quer dizer que o candidato seja bom, só que concorda com você nessas questões.</p>
+    <div class="bus-rank">${rank
+      .map((r, i) => {
+        const destaque = i === 0;
+        return `
+      <article class="bus-card ${destaque ? "bus-top" : ""}" style="--cor:${corDe(r.c)}">
         <div class="bus-card-top">
+          <span class="bus-pos">${i + 1}</span>
           ${faceEl(r.c, "face-md")}
           <div class="bus-card-id">
             <div class="bus-card-nome">${r.c.nome}</div>
             <div class="bus-card-part">${r.c.partido || ""}</div>
           </div>
+          <span class="bus-match">${r.af.pct}%</span>
         </div>
-        <div class="bus-props">${props}</div>
       </article>`;
-    })
-    .join("")}</div>`;
+      })
+      .join("")}</div>`;
 }
 
 carregar();

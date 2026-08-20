@@ -1,0 +1,43 @@
+{
+  "nota": "Posições simplificadas a partir dos planos de governo de cada candidato. +1 = a favor da afirmação, -1 = contra, 0 = neutro/misto. É um resumo para orientar a leitura, não um rótulo definitivo.",
+  "perguntas": [
+    {
+      "id": "estado",
+      "texto": "O Estado deveria controlar ou estatizar setores estratégicos como bancos, energia e petróleo."
+    },
+    {
+      "id": "imposto",
+      "texto": "É melhor reduzir impostos e o tamanho do Estado, mesmo que isso corte gastos e programas públicos."
+    },
+    {
+      "id": "social",
+      "texto": "O governo deve ampliar programas de transferência de renda, como o Bolsa Família."
+    },
+    {
+      "id": "seguranca",
+      "texto": "A segurança deve ser linha-dura: mais prisões, penas maiores e redução da maioridade penal."
+    },
+    {
+      "id": "ambiente",
+      "texto": "Proteger o meio ambiente deve ser prioridade, mesmo que trave obras, mineração ou petróleo."
+    },
+    {
+      "id": "trabalho",
+      "texto": "Os direitos trabalhistas devem ser ampliados, revertendo a flexibilização da CLT."
+    }
+  ],
+  "posicoes": {
+    "lula":              {"estado": 0,  "imposto": -1, "social": 1,  "seguranca": 0,  "ambiente": 1,  "trabalho": 1},
+    "ronaldo-caiado":    {"estado": -1, "imposto": 1,  "social": 0,  "seguranca": 1,  "ambiente": 0,  "trabalho": -1},
+    "romeu-zema":        {"estado": -1, "imposto": 1,  "social": -1, "seguranca": 1,  "ambiente": -1, "trabalho": -1},
+    "flavio-bolsonaro":  {"estado": -1, "imposto": 1,  "social": 0,  "seguranca": 1,  "ambiente": 0,  "trabalho": -1},
+    "renan-santos":      {"estado": -1, "imposto": 1,  "social": -1, "seguranca": 1,  "ambiente": -1, "trabalho": -1},
+    "augusto-cury":      {"estado": 0,  "imposto": 0,  "social": 0,  "seguranca": 1,  "ambiente": 1,  "trabalho": 0},
+    "wilson-grassi":     {"estado": -1, "imposto": 1,  "social": 0,  "seguranca": 1,  "ambiente": 0,  "trabalho": -1},
+    "samara-martins":    {"estado": 1,  "imposto": -1, "social": 1,  "seguranca": -1, "ambiente": 1,  "trabalho": 1},
+    "hertz-dias":        {"estado": 1,  "imposto": -1, "social": 1,  "seguranca": -1, "ambiente": 1,  "trabalho": 1},
+    "edmilson-costa":    {"estado": 1,  "imposto": -1, "social": 1,  "seguranca": -1, "ambiente": 1,  "trabalho": 1},
+    "rui-costa-pimenta": {"estado": 1,  "imposto": -1, "social": 1,  "seguranca": -1, "ambiente": 0,  "trabalho": 1},
+    "clariana-barao":    {"estado": -1, "imposto": 1,  "social": 0,  "seguranca": 0,  "ambiente": -1, "trabalho": -1}
+  }
+}
