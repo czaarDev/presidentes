@@ -423,5 +423,35 @@
         }
       ]
     }
-  ]
+  ],
+  "avaliacao": {
+    "resumo": "Em meados de 2026 o governo está tecnicamente empatado entre aprovação e reprovação, com leve recuperação em jun–jul; a reprovação ainda supera ou empata a aprovação na maioria dos institutos, e 53% acham que o país vai na direção errada.",
+    "pontos": [
+      {
+        "texto": "Quaest (ago/2026): 46% aprovam e 48% reprovam o governo; na avaliação qualitativa, 36% positiva, 25% regular e 37% negativa.",
+        "fonte": "Genial/Quaest, ago 2026",
+        "url": "https://www.brasil247.com/brasilia/46-dos-brasileiros-aprovam-o-governo-lula-e-48-desaprova-diz-quaest/"
+      },
+      {
+        "texto": "AtlasIntel/Bloomberg (jul/2026): 47,6% de aprovação x 51,2% de desaprovação; 46,5% consideram o governo ótimo/bom e 49,3% ruim/péssimo.",
+        "fonte": "AtlasIntel/Bloomberg, jul 2026",
+        "url": "https://www.brasil247.com/brasil/aprovacao-de-lula-sobe-para-476-indica-pesquisa-atlasintel/"
+      },
+      {
+        "texto": "Datafolha (jul/2026): 32% ótimo/bom, 28% regular e 38% ruim/péssimo — quadro estável em relação a maio e junho.",
+        "fonte": "Datafolha, jul 2026",
+        "url": "https://www.brasil247.com/brasil/aprovacao-de-lula-supera-desaprovacao-pela-primeira-vez-em-2026-aponta-datafolha/"
+      },
+      {
+        "texto": "Paraná Pesquisas (fev/2026): 45% de aprovação e 52% de desaprovação — a maior reprovação desde agosto de 2025.",
+        "fonte": "Paraná Pesquisas, fev 2026",
+        "url": "https://www.metropoles.com/brasil/parana-pesquisas-aprovacao-do-governo-lula"
+      },
+      {
+        "texto": "Maiores preocupações dos brasileiros: violência/segurança (33%), economia (15%), saúde e corrupção (14% cada). 53% acham que o país vai na direção errada, contra 38% que veem direção certa.",
+        "fonte": "Genial/Quaest, ago 2026",
+        "url": "https://www.brasil247.com/brasilia/46-dos-brasileiros-aprovam-o-governo-lula-e-48-desaprova-diz-quaest/"
+      }
+    ]
+  }
 }

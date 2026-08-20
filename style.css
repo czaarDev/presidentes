@@ -564,6 +564,49 @@ body {
 .leg-problema { background: #d4212f; }
 .leg-neutro { background: #9096a0; }
 
+/* Avaliação popular */
+.gov-aval { margin-bottom: 22px; }
+.aval-card {
+  background: var(--ink);
+  color: var(--hero-ink);
+  border-radius: 18px;
+  padding: 24px clamp(20px, 3vw, 30px);
+}
+.aval-titulo {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+}
+.aval-resumo {
+  margin-top: 10px;
+  color: #c9cdd3;
+  font-size: 0.96rem;
+  max-width: 68ch;
+  text-wrap: pretty;
+}
+.aval-pontos {
+  margin-top: 18px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 4px 34px;
+}
+.aval-ponto {
+  padding: 12px 0;
+  border-top: 1px solid #2f323a;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: #eceef1;
+}
+.aval-fonte {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.76rem;
+  color: #8f949c;
+  text-decoration: none;
+}
+.aval-fonte:hover { color: #fff; text-decoration: underline; }
+
 .gov-areas { display: grid; gap: 14px; }
 .gov-area {
   background: var(--surface);
@@ -762,6 +805,7 @@ body {
   border-radius: 2px;
   background: var(--cor, var(--ink));
 }
+.bus-vazio-tema { font-size: 0.86rem; color: var(--faint); font-style: italic; padding: 4px 0; }
 
 /* ============ RODAPÉ ============ */
 .rodape {

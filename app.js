@@ -284,6 +284,26 @@ function renderGoverno() {
   document.getElementById("govPeriodo").textContent = GOV.periodo;
   document.getElementById("govNota").textContent = GOV.nota;
 
+  const av = GOV.avaliacao;
+  if (av) {
+    document.getElementById("govAval").innerHTML = `
+      <div class="aval-card">
+        <h3 class="aval-titulo">Como o povo avalia o governo</h3>
+        <p class="aval-resumo">${av.resumo}</p>
+        <div class="aval-pontos">
+          ${av.pontos
+            .map(
+              (p) => `
+            <div class="aval-ponto">
+              <span class="aval-texto">${p.texto}</span>
+              ${p.url ? `<a class="aval-fonte" href="${p.url}" target="_blank" rel="noopener">${p.fonte} ↗</a>` : `<span class="aval-fonte">${p.fonte}</span>`}
+            </div>`
+            )
+            .join("")}
+        </div>
+      </div>`;
+  }
+
   const alvo = document.getElementById("govAreas");
   alvo.innerHTML = GOV.areas
     .map((a, i) => {
@@ -341,42 +361,38 @@ function renderBussola() {
     return;
   }
 
-  const ranking = candidatosValidos()
+  const lista = candidatosValidos()
     .map((c) => {
-      let total = 0;
-      const porTema = temas.map((t) => {
-        const itens = (c.propostas && c.propostas[t]) || [];
-        total += itens.length;
-        return { tema: t, itens };
-      });
-      return { c, total, porTema };
+      const porTema = temas.map((t) => ({ tema: t, itens: (c.propostas && c.propostas[t]) || [] }));
+      return { c, porTema };
     })
-    .sort((a, b) => b.total - a.total);
+    .sort((a, b) => a.c.nome.localeCompare(b.c.nome, "pt"));
 
-  alvo.innerHTML = `<div class="bus-rank">${ranking
-    .map((r, i) => {
+  alvo.innerHTML = `<div class="bus-rank">${lista
+    .map((r) => {
       const props = r.porTema
-        .filter((pt) => pt.itens.length)
         .map(
           (pt) => `
         <div>
           <div class="bus-prop-tema">${pt.tema}</div>
-          ${pt.itens.map((p) => `<div class="bus-prop">${p}</div>`).join("")}
+          ${
+            pt.itens.length
+              ? pt.itens.map((p) => `<div class="bus-prop">${p}</div>`).join("")
+              : `<div class="bus-vazio-tema">Sem proposta neste tema.</div>`
+          }
         </div>`
         )
         .join("");
       return `
       <article class="bus-card" style="--cor:${corDe(r.c)}">
         <div class="bus-card-top">
-          <span class="bus-pos">${i + 1}</span>
           ${faceEl(r.c, "face-md")}
           <div class="bus-card-id">
             <div class="bus-card-nome">${r.c.nome}</div>
             <div class="bus-card-part">${r.c.partido || ""}</div>
           </div>
-          <span class="bus-count">${r.total} propostas</span>
         </div>
-        ${props ? `<div class="bus-props">${props}</div>` : ""}
+        <div class="bus-props">${props}</div>
       </article>`;
     })
     .join("")}</div>`;
