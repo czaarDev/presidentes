@@ -1,0 +1,5 @@
+# Arquivos de trabalho / temporários
+planos/txt/
+planos/*.pdf
+preview-mobile.png
+.DS_Store

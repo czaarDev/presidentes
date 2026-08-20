@@ -1,0 +1,1047 @@
+{
+  "atualizadoEm": "2026-08-20",
+  "eleicao": "Eleição Presidencial 2026",
+  "mock": false,
+  "temas": [
+    "Economia",
+    "Saúde",
+    "Educação",
+    "Segurança",
+    "Meio Ambiente",
+    "Emprego"
+  ],
+  "candidatos": [
+    {
+      "id": "augusto-cury",
+      "nome": "Augusto Cury",
+      "partido": "Avante",
+      "numero": "70",
+      "cor": "#0e7490",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Simplificar o sistema tributário e concluir a reforma com carga tributária menor ao fim da transição.",
+          "Rever o pacto federativo para destinar mais recursos aos municípios.",
+          "Transformar o Brasil em referência em governo digital, com serviços em plataformas integradas.",
+          "Estabelecer metas anuais mensuráveis e públicas para todos os ministérios.",
+          "Usar IA para identificar fraudes, sobrepreços, desperdícios e corrupção nos gastos públicos.",
+          "Instalar 10 mil novas indústrias distribuídas por todas as regiões.",
+          "Atrair investimento para produção nacional de semicondutores e microeletrônica.",
+          "Criar cinco Corredores Estratégicos de Exportação com aduana digital.",
+          "Ampliar concessões e PPPs para acelerar obras de infraestrutura.",
+          "Regularizar imóveis sem documentação para dar acesso a crédito às famílias."
+        ],
+        "Saúde": [
+          "Fortalecer a atenção primária como principal eixo do SUS.",
+          "Digitalizar prontuários e integrar sistemas do SUS para reduzir filas.",
+          "Tornar o Brasil a maior plataforma pública de telemedicina, com meta de atendimento em até 30 minutos.",
+          "Usar IA para triagem clínica inicial e priorização dos casos mais graves.",
+          "Criar rede nacional de pontos públicos de acesso digital assistido.",
+          "Implantar Programa Nacional de Saúde Mental de abrangência ampla.",
+          "Criar o programa Sociedade Está Abraçando (SEA) de prevenção e detecção precoce do câncer.",
+          "Ampliar o rastreamento organizado de câncer de mama, colo do útero, colorretal e pele.",
+          "Ampliar a fabricação nacional de medicamentos, vacinas e biotecnologia.",
+          "Fortalecer a saúde integral da mulher."
+        ],
+        "Educação": [
+          "Adotar a escola pública de tempo integral como prioridade nacional.",
+          "Incluir no currículo Gestão da Emoção, Educação Financeira e Empreendedorismo.",
+          "Reformular o Novo Ensino Médio integrando formação técnica ao ensino acadêmico.",
+          "Valorizar professores com formação continuada e remuneração por qualificação.",
+          "Programas permanentes de prevenção de ansiedade, bullying e suicídio nas escolas.",
+          "Instituir o programa Brasil Neuroinclusivo em cada escola.",
+          "Priorizar a alfabetização na idade certa.",
+          "Expandir o ensino técnico integrado ao ensino médio.",
+          "Fortalecer a pesquisa universitária ampliando CAPES e CNPq."
+        ],
+        "Segurança": [
+          "Recriar o Ministério da Segurança Pública.",
+          "Implementar o SUSP integrando PF, polícias estaduais, guardas e inteligência.",
+          "Criar a Polícia FOCO (Força de Combate Municipal) com cerca de 5% dos servidores municipais.",
+          "Implantar o programa FATO integrando tecnologia, inteligência e forças policiais.",
+          "Criar Centro Integrado de Inteligência com dados nacionais em tempo real.",
+          "Usar IA, reconhecimento facial, drones e análise preditiva no policiamento.",
+          "Atacar as finanças das facções via Receita, COAF, PF e MP.",
+          "Reforçar o controle de fronteiras com Forças Armadas, drones e satélites.",
+          "Reformar o sistema penitenciário com foco em educação, trabalho e ressocialização.",
+          "Escolher o Diretor-Geral da PF por lista tríplice, com mandato de dois anos."
+        ],
+        "Meio Ambiente": [
+          "Ampliar investimentos em energia solar, eólica, biomassa e pequenas hidrelétricas.",
+          "Tornar o Brasil grande exportador de hidrogênio verde (meta TOP 3 até 2035).",
+          "Alcançar 90% da matriz energética limpa até 2040.",
+          "Regulamentar o mercado de carbono e instituir Pagamento por Serviços Ambientais.",
+          "Implantar o projeto Floresta Viva com satélites e IA contra incêndios.",
+          "Executar o programa Amazônia Viva com bioeconomia e renda para ribeirinhos.",
+          "Processar terras raras e minerais estratégicos no país.",
+          "Estabelecer prazos legais para licenciamento ambiental por nível de risco."
+        ],
+        "Emprego": [
+          "Criar Secretaria do Empreendedorismo com meta de 10 milhões de microempresas.",
+          "Implantar 10 mil Escolas/Clubes de Empreendedorismo.",
+          "Criar o Banco do Empreendedor com crédito de até R$ 20 mil a juros de 5% a 6% ao ano.",
+          "Formar 10 milhões de novos empreendedores com apoio técnico e crédito.",
+          "Tornar a abertura de empresas rápida, simples e digital.",
+          "Transformar o Bolsa Família em incentivo ao empreendedorismo.",
+          "Dar acesso prioritário a microcrédito a mulheres vítimas de violência.",
+          "Expandir o ensino técnico para aumentar a empregabilidade dos jovens."
+        ]
+      },
+      "foto": "assets/fotos/augusto-cury.jpg",
+      "redflags": [
+        {
+          "texto": "Sua Teoria da Inteligência Multifocal, desenvolvida sem vínculo universitário, é rejeitada por psicólogos e classificada como pseudociência por acadêmicos da área; trata-se de crítica científica, sem processo judicial.",
+          "fonte": "Crítica acadêmica (Interd/UnB), 2019",
+          "url": "https://interd.net.br/augusto-cury-reprovado/24/05/2019/"
+        }
+      ]
+    },
+    {
+      "id": "clariana-barao",
+      "nome": "Clariana Barão",
+      "partido": "DC — Democracia Cristã (vice: Fabiana Torquato)",
+      "numero": "27",
+      "cor": "#7c3aed",
+      "fonte": "",
+      "foto": "assets/fotos/clariana-barao.jpg",
+      "propostas": {
+        "Economia": [
+          "Simplificar a regulação e reduzir o estoque de normas.",
+          "Digitalizar e agilizar a abertura de empresas.",
+          "Garantir segurança jurídica com avaliação periódica de normas.",
+          "Ampliar crédito produtivo e garantias para pequenos negócios.",
+          "Tornar as compras públicas acessíveis a micro e pequenas empresas.",
+          "Investir em rodovias com manutenção baseada em desempenho.",
+          "Ampliar ferrovias, hidrovias, portos e cabotagem.",
+          "Usar concessões e PPPs com planejamento de longo prazo.",
+          "Expandir conectividade e banda larga.",
+          "Revisar gastos públicos e subsídios, com planejamento plurianual por metas."
+        ],
+        "Saúde": [
+          "Fortalecer a atenção primária com equipes completas e acesso territorial.",
+          "Implantar prontuário eletrônico interoperável e coordenação do cuidado.",
+          "Estabelecer metas de acompanhamento de doenças crônicas.",
+          "Ampliar vacinação e rastreamento baseado em evidências.",
+          "Priorizar a saúde da mulher e da criança.",
+          "Incorporar novas tecnologias ao SUS conforme segurança, eficácia e custo.",
+          "Criar programas comunitários de atividade física em espaços públicos.",
+          "Integrar a telemedicina à rede pública.",
+          "Regular filas de forma inteligente para reduzir o tempo de espera.",
+          "Usar IA como apoio clínico e administrativo com governança e privacidade."
+        ],
+        "Educação": [
+          "Melhorar a qualidade pedagógica na educação infantil.",
+          "Garantir alfabetização na idade adequada.",
+          "Promover recomposição de aprendizagem e recuperação de defasagens.",
+          "Aplicar avaliação frequente com intervenção pedagógica.",
+          "Investir em formação de professores baseada em evidências.",
+          "Estruturar carreira e liderança escolar e reduzir burocracia docente.",
+          "Levar tecnologia e IA de uso responsável às escolas.",
+          "Ensinar educação financeira, cidadania e competências digitais.",
+          "Expandir a formação técnica conectada às vocações regionais.",
+          "Firmar parcerias com o setor produtivo e o ensino superior."
+        ],
+        "Segurança": [
+          "Instalar sensores, radares e monitoramento remoto nas fronteiras.",
+          "Usar drones e análise de imagens dentro do marco legal.",
+          "Criar centros integrados de comando e compartilhamento de dados.",
+          "Combater o narcotráfico e o tráfico de armas com inteligência sobre rotas.",
+          "Ampliar a cooperação interestadual e internacional contra o crime.",
+          "Asfixiar financeiramente as facções com inteligência financeira e patrimonial.",
+          "Rastrear lavagem de dinheiro e recuperar ativos com devido processo.",
+          "Adotar policiamento urbano baseado em evidências e mapas de risco.",
+          "Dar proteção específica a mulheres, escolas e áreas vulneráveis.",
+          "Oferecer trabalho, educação e qualificação a presos para reduzir reincidência."
+        ],
+        "Meio Ambiente": [],
+        "Emprego": [
+          "Oferecer qualificação e reinserção profissional, com foco nas mulheres.",
+          "Apoiar empreendedorismo e acesso a crédito responsável.",
+          "Criar rede de cuidado para ampliar a participação das mulheres no trabalho.",
+          "Oferecer capacitação gerencial e digital a empreendedores.",
+          "Conectar a formação técnica ao emprego e às vocações regionais.",
+          "Promover aprendizagem profissional em parceria com o setor produtivo."
+        ]
+      },
+      "redflags": []
+    },
+    {
+      "id": "edmilson-costa",
+      "nome": "Edmilson Costa",
+      "partido": "PCB — Partido Comunista Brasileiro",
+      "numero": "21",
+      "cor": "#9f1239",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Nacionalizar e estatizar o sistema monetário e financeiro sob controle público.",
+          "Criar o Banco dos Trabalhadores para gerir fundos previdenciários e de seguridade.",
+          "Reestruturar a dívida pública e suspender pagamento de juros durante investigação de sua origem.",
+          "Reestatizar empresas estratégicas privatizadas, incluindo Petrobras e Eletrobras.",
+          "Reforma tributária progressiva com imposto sobre grandes fortunas, lucros, dividendos e heranças.",
+          "Revogar o Arcabouço Fiscal, a Lei de Responsabilidade Fiscal e a Lei das Estatais.",
+          "Acabar com a autonomia do Banco Central e retomar o controle do câmbio.",
+          "Manter a Petrobras 100% estatal, com fim do PPI.",
+          "Criar restaurantes e mercados populares e controlar preços da cesta básica.",
+          "Proibir as bets, com expropriação de seus ativos."
+        ],
+        "Saúde": [
+          "Tornar todo o sistema de saúde público, estatizando o setor privado.",
+          "Investir 10% do PIB na saúde pública.",
+          "Fortalecer o SUS a partir da atenção básica em todos os bairros.",
+          "Ampliar a produção nacional de medicamentos, insumos e equipamentos.",
+          "Criar Conselhos Populares de Saúde eleitos pelos trabalhadores.",
+          "Contratar médicos e pessoal de saúde para regiões periféricas e menos assistidas.",
+          "Expandir a Fiocruz e o Instituto Butantã para outros estados.",
+          "Revogar contratos das Organizações Sociais (OSs) na saúde."
+        ],
+        "Educação": [
+          "Ensino 100% público e gratuito da creche à pós-graduação.",
+          "Ampliar Institutos Federais e Escolas Técnicas para o interior.",
+          "Criar amplo programa de valorização dos profissionais da educação.",
+          "Garantir um computador para cada estudante em todos os níveis.",
+          "Acabar com o vestibular nas federais e ampliar as cotas.",
+          "Implantar o Piso Salarial Profissional Nacional dos docentes.",
+          "Acabar com as escolas cívico-militares e defender educação laica.",
+          "Ampliar bolsas de mestrado, doutorado e apoio à pesquisa.",
+          "Investir no CEITEC, fábrica de chips da América Latina."
+        ],
+        "Segurança": [
+          "Desmilitarizar a segurança pública, unificar as polícias e instituir o ciclo completo.",
+          "Criar um ministério de segurança dos direitos, no lugar da política repressiva.",
+          "Acabar com a 'guerra às drogas' e revogar a Lei Antidrogas.",
+          "Descriminalizar o uso de drogas e legalizar a maconha a curto prazo.",
+          "Adotar as 16 medidas contra o encarceramento em massa do IBCCRIM.",
+          "Implementar cotas raciais nos concursos das forças de segurança.",
+          "Acabar com a privatização dos presídios.",
+          "Ocupar territórios do crime com escolas, saúde e serviços públicos.",
+          "Ser contra a redução da maioridade penal.",
+          "Priorizar as Forças Armadas na defesa das fronteiras."
+        ],
+        "Meio Ambiente": [
+          "Combater o desmatamento em todos os ecossistemas e a mineração e garimpo ilegais.",
+          "Ampliar unidades de conservação e reservas florestais em todos os biomas.",
+          "Reflorestamento com espécies nativas e recuperação de nascentes e rios.",
+          "Reduzir emissões e a geração de energia por combustíveis fósseis.",
+          "Investir em energia solar, eólica, biomassa e maré.",
+          "Taxar emissões de gases poluentes e danos ambientais.",
+          "Acabar com os lixões e ampliar coleta, reciclagem e reaproveitamento.",
+          "Revisar o Código Florestal e reativar a fiscalização ambiental.",
+          "Demarcar e proteger terras indígenas, quilombolas e populações tradicionais.",
+          "Apoiar cooperativas de catadores."
+        ],
+        "Emprego": [
+          "Garantir o direito ao trabalho com política de pleno emprego.",
+          "Reduzir a jornada para 30 horas sem redução de salário e acabar com a escala 6x1.",
+          "Revogar as reformas trabalhista e da Previdência.",
+          "Recuperar o poder de compra do salário-mínimo até o piso do Dieese em quatro anos.",
+          "Registro em carteira e piso salarial para trabalhadores de aplicativos.",
+          "Convocar concursos públicos e chamar aprovados em concursos anteriores.",
+          "Resgatar a estabilidade no trabalho (Convenção 158 da OIT).",
+          "Criar frentes de trabalho nos bairros mais pobres, priorizando o CadÚnico.",
+          "Ampliar licença-maternidade e paternidade para um ano.",
+          "Acabar com as terceirizações."
+        ]
+      },
+      "foto": "assets/fotos/edmilson-costa.jpg",
+      "redflags": []
+    },
+    {
+      "id": "flavio-bolsonaro",
+      "nome": "Flávio Bolsonaro",
+      "partido": "PL — Partido Liberal",
+      "numero": "22",
+      "cor": "#1e40af",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Revisar a reforma tributária em curso, reduzindo o IVA e assegurando a não cumulatividade.",
+          "Reduzir impostos sobre consumo e produção, com desoneração de exportações e investimentos.",
+          "Simplificar a conta de luz e reduzir gradualmente a CDE, mantida a tarifa social.",
+          "Reduzir impostos sobre energia elétrica e combustíveis.",
+          "Estabilizar e reduzir a dívida pública para baixar juros e a inflação.",
+          "Reformular as regras fiscais com foco em superávits primários.",
+          "Proibir o uso de recursos de programas sociais em apostas online.",
+          "Cortar no mínimo 10 ministérios e reduzir cargos, penduricalhos e supersalários.",
+          "Transformar a CAIXA no Banco da Prosperidade.",
+          "Retomar a adesão à OCDE e o Programa Nacional de Desestatização, caso a caso."
+        ],
+        "Saúde": [
+          "Prontuário eletrônico único vinculado ao CPF, integrado ao Gov.br.",
+          "Completar a digitalização do SUS e usar IA no agendamento de consultas e exames.",
+          "Corrigir a tabela SUS para cobrir o custo real do atendimento.",
+          "Ampliar a Estratégia Saúde da Família e criar Programa de Atendimento aos Idosos.",
+          "Contratar serviços e exames na rede privada em horários ociosos para reduzir filas.",
+          "Implantar telessaúde por aplicativo para regiões distantes.",
+          "Criar entrega de remédios em domicílio para idosos, PCD e doentes crônicos.",
+          "Ampliar a atenção à saúde mental, incluindo TDAH, depressão e Alzheimer.",
+          "Implantar Centros de Referência em Transtorno do Espectro Autista.",
+          "Criar Unidades Móveis de Saúde da Mulher (ônibus, caminhões e barcos)."
+        ],
+        "Educação": [
+          "Priorizar o método fônico na alfabetização.",
+          "Criar o Programa Acolher, remunerando bons alunos para dar reforço aos colegas.",
+          "Gestão escolar por indicadores e financiamento por metas de aprendizagem.",
+          "Qualificação contínua de professores baseada em evidências.",
+          "Ampliar as Escolas Cívico-Militares.",
+          "Levar robótica, computadores, tablets e internet às escolas.",
+          "Escola em tempo integral e programa Escola nas Férias.",
+          "Oferecer voucher educacional onde faltar vaga na rede pública.",
+          "Ampliar a educação técnica no ensino médio.",
+          "Ampliar creches em período integral e voucher-creche onde faltar vaga."
+        ],
+        "Segurança": [
+          "Declarar PCC, CV e milícias como organizações narcoterroristas e bloquear ativos.",
+          "Reduzir a maioridade penal de 18 para 16 anos.",
+          "Criar o Sistema Nacional de Fronteira com tropa de elite das Forças Armadas.",
+          "Construir 5 novos presídios de segurança máxima e criar 500 mil vagas prisionais em 4 anos.",
+          "Aprovar a castração química para estupradores e abusadores de crianças condenados.",
+          "Monitorar agressores de mulheres com tornozeleiras e endurecer as penas.",
+          "Dobrar os investimentos federais em segurança pública.",
+          "Implantar reconhecimento facial 'Muralha Brasileira' com 1 milhão de novas câmeras.",
+          "Acabar com a progressão de regime para crimes hediondos.",
+          "Quadruplicar a pena de quem rouba, furta ou revende celulares."
+        ],
+        "Meio Ambiente": [
+          "Consolidar o mercado regulado de carbono com segurança jurídica.",
+          "Ampliar pagamento por serviços ambientais a quem conserva vegetação nativa.",
+          "Impulsionar a bioeconomia com biotecnologia, fármacos e cosméticos da biodiversidade.",
+          "Zerar o desmatamento ilegal até 2029 e combater queimadas ilegais.",
+          "Fiscalização ambiental com IA, satélite e dados em tempo real.",
+          "Eliminar superposições entre Ibama, Funai e ICMBio.",
+          "Exigir transparência de ONGs que recebem recursos internacionais.",
+          "Universalizar água tratada e esgoto e cumprir o Programa Lixão Zero.",
+          "Garantir nenhuma escola sem água até 2030."
+        ],
+        "Emprego": [
+          "Reduzir gradualmente o custo do trabalho formal sem retirar direitos.",
+          "Criar contrato para jovens de 18 a 24 anos no primeiro emprego, com menor custo.",
+          "Criar contrato atrativo para contratação de desempregados com 50 anos ou mais.",
+          "Adotar o negociado sobre o legislado e permitir jornada flexível.",
+          "Banco nacional de vagas conectado ao RH das empresas.",
+          "Prioridade a beneficiários de programas sociais no primeiro emprego.",
+          "Retorno imediato ao benefício social após o seguro-desemprego.",
+          "Criar o Minha Primeira Empresa, com menos burocracia e crédito da CAIXA.",
+          "Apoiar pequenos negócios com crédito e internacionalização via BNDES e Apex.",
+          "Criar a Escola Brasil por Elas para capacitação feminina."
+        ]
+      },
+      "foto": "assets/fotos/flavio-bolsonaro.jpg",
+      "redflags": [
+        {
+          "texto": "Denunciado em 2020 pelo MP-RJ por organização criminosa, peculato e lavagem no esquema das 'rachadinhas' da Alerj; a denúncia foi rejeitada pelo TJ-RJ em 2022 e o caso acabou arquivado/prescrito entre 2025 e 2026, sem julgamento de mérito.",
+          "fonte": "CartaCapital/InfoMoney, 2026",
+          "url": "https://www.cartacapital.com.br/politica/o-que-aconteceu-com-o-caso-da-rachadinha-de-flavio-bolsonaro-suposto-candidato-em-2026/"
+        },
+        {
+          "texto": "A 2ª Turma do STF anulou em 2021 provas centrais da investigação (relatórios do Coaf compartilhados sem autorização judicial), decisão que fragilizou o caso e levou ao arquivamento.",
+          "fonte": "STF/CNN Brasil, 2021",
+          "url": "https://noticias.stf.jus.br/postsnoticias/2a-turma-decide-que-provas-contra-flavio-bolsonaro-no-caso-das-chamadas-rachadinhas-sao-ilegais/"
+        },
+        {
+          "texto": "Foi investigado pelo MP-RJ por suspeita de usar uma franquia da Kopenhagen para lavar dinheiro, com o Coaf apontando depósitos em espécie fracionados; a apuração integrava o caso das rachadinhas, encerrado sem condenação.",
+          "fonte": "O Tempo/BBC, 2019–2023",
+          "url": "https://www.otempo.com.br/politica/flavio-bolsonaro-e-socio-entregam-loja-de-chocolates-investigada-pelo-mp-1.2443105"
+        },
+        {
+          "texto": "Um financiamento de R$ 5,9 milhões do banco público BRB (2021) para a compra de mansão no Lago Sul, com juros considerados atípicos, voltou a ser questionado em 2025; não há acusação formal contra o senador nesse caso.",
+          "fonte": "Metrópoles, 2025",
+          "url": "https://www.metropoles.com/colunas/grande-angular/paulo-henrique-era-presidente-quando-brb-deu-polemico-financiamento-de-r-59-milhoes-a-flavio-bolsonaro"
+        }
+      ]
+    },
+    {
+      "id": "hertz-dias",
+      "nome": "Hertz Dias",
+      "partido": "PSTU — Partido Socialista dos Trabalhadores Unificado",
+      "numero": "16",
+      "cor": "#b91c1c",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Estatizar empresas estratégicas de mineração, petróleo, energia, siderurgia e celulose.",
+          "Criar empresa estatal de terras raras sob controle dos trabalhadores.",
+          "Estatizar o sistema financeiro e os grandes bancos em um banco único.",
+          "Tributação fortemente progressiva sobre lucros e remessas de capital ao exterior.",
+          "Imposto progressivo sobre grandes fortunas acima de R$ 1 bilhão.",
+          "Isentar o IR até dez salários mínimos e corrigir a tabela pela inflação.",
+          "Suspender o pagamento da dívida pública e fazer auditoria.",
+          "Fim dos benefícios fiscais às grandes empresas.",
+          "Proibir as bets e expropriar seu capital, revertendo recursos à saúde.",
+          "Adotar planejamento econômico voltado ao mercado interno."
+        ],
+        "Saúde": [
+          "Defender o SUS público, universal, gratuito e 100% estatal.",
+          "Acabar com a privatização e a gestão privada (OS, fundações e PPP).",
+          "Proibir a transferência de leitos públicos para planos privados.",
+          "Ampliar o investimento público, com prioridade para a atenção básica.",
+          "Ampliar o investimento em saúde mental (Caps e centros de convivência).",
+          "Contratar trabalhadores da saúde por concurso público.",
+          "Produção pública de medicamentos e insumos estratégicos.",
+          "Expandir a rede de hospitais, UPAs e Unidades Básicas de Saúde."
+        ],
+        "Educação": [
+          "Impedir verba pública para grandes empresários da educação.",
+          "Acabar com PPPs e terceirizações nas redes públicas.",
+          "Revogar a BNCC e o Novo Ensino Médio.",
+          "Barrar a militarização das escolas e o Escola Sem Partido.",
+          "Garantir formação crítica e científica, barrando a plataformização.",
+          "Valorizar os profissionais com carreira e salários dignos.",
+          "Ampliar vagas em creches, escolas e universidades públicas.",
+          "Garantir permanência com transporte, alimentação e bolsas.",
+          "Manter e ampliar cotas para negros nas universidades.",
+          "Investimento massivo na educação pública."
+        ],
+        "Segurança": [
+          "Combater o crime organizado por investigação e inteligência, atingindo seu financiamento.",
+          "Confiscar bens de origem criminosa e punir agentes públicos envolvidos.",
+          "Descriminalizar as drogas e revogar a Lei Antidrogas.",
+          "Câmeras corporais para todos os agentes, sob controle civil.",
+          "Desmilitarizar a Polícia Militar e reverter a militarização das guardas.",
+          "Unificar as polícias em instituição civil única, com comandos eleitos.",
+          "Extinguir a Justiça Militar.",
+          "Punir tortura, execuções e chacinas praticadas por agentes do Estado.",
+          "Dissolver batalhões milicianizados e expulsar agentes ligados a milícias.",
+          "Ser contra a redução da maioridade penal e o encarceramento em massa."
+        ],
+        "Meio Ambiente": [
+          "Fim dos créditos e subsídios estatais ao grande agronegócio.",
+          "Recuperar áreas desmatadas e biomas devastados.",
+          "Demarcar terras indígenas e titular territórios quilombolas.",
+          "Reconhecer e reparar populações atingidas por crimes ambientais.",
+          "Barrar a exploração de petróleo na Margem Equatorial.",
+          "Barrar a privatização dos rios da Amazônia e das hidrovias.",
+          "Planos de prevenção contra enchentes e deslizamentos em áreas de risco.",
+          "Planos de emergência e defesa civil com alertas e evacuação.",
+          "Acabar com o uso de agrotóxicos e promover a agroecologia.",
+          "Promover reflorestamento urbano."
+        ],
+        "Emprego": [
+          "Acabar com a escala 6x1 sem redução de salários, sem pejotização e sem demissões.",
+          "Reduzir a jornada para 36 horas sem redução salarial, rumo ao pleno emprego.",
+          "Aumentar em 100% o salário mínimo, rumo ao salário necessário do Dieese.",
+          "Bolsa de um salário mínimo para desempregados enquanto não houver pleno emprego.",
+          "Plano nacional de obras públicas (saneamento, escolas, hospitais, creches).",
+          "Revogar a reforma trabalhista e a lei das terceirizações.",
+          "Revogar a reforma da Previdência e defender previdência pública universal.",
+          "Reconhecer o vínculo empregatício dos trabalhadores de aplicativos.",
+          "Exigir transparência dos algoritmos e fiscalização das plataformas.",
+          "Salário igual para trabalho igual, em especial para mulheres e negros."
+        ]
+      },
+      "foto": "assets/fotos/hertz-dias.jpg",
+      "redflags": []
+    },
+    {
+      "id": "lula",
+      "nome": "Luiz Inácio Lula da Silva",
+      "partido": "PT — coligação com PSB, PV, PCdoB, PDT, PSOL e Rede",
+      "numero": "13",
+      "cor": "#c62828",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Manter o novo arcabouço fiscal para controlar despesas sem prejudicar políticas sociais.",
+          "Criar condições para redução sustentada dos juros com inflação controlada.",
+          "Ampliar investimentos em infraestrutura logística e social.",
+          "Fortalecer a neoindustrialização pela Nova Indústria Brasil (NIB).",
+          "Ampliar o Novo PAC em rodovias, ferrovias, portos e aeroportos.",
+          "Política para minerais críticos e terras raras, agregando valor no país.",
+          "Regulamentar o Fundo Nacional de Desenvolvimento Regional.",
+          "Implementar a reforma tributária do consumo com tratamento justo às pequenas empresas.",
+          "Ampliar o crédito para micro, pequenas e médias empresas.",
+          "Fomentar o ecossistema de tecnologia digital, de datacenters a IA."
+        ],
+        "Saúde": [
+          "Expandir e qualificar as equipes de saúde da família.",
+          "Intensificar teleconsultas, teleorientação e teleacolhimento.",
+          "Consolidar o prontuário único do cidadão (RNDS).",
+          "Manter o Programa Mais Médicos, com fixação em áreas vulneráveis.",
+          "Universalizar a saúde bucal pelo Brasil Sorridente.",
+          "Manter o Farmácia Popular 100% gratuito e incluir exames.",
+          "Ampliar a cobertura vacinal, com vacinação nas escolas.",
+          "Impulsionar o Agora tem Especialistas para reduzir filas.",
+          "Implantar fila única digital ordenada por risco clínico, com IA.",
+          "Ampliar a Rede de Atenção Psicossocial e os CAPS."
+        ],
+        "Educação": [
+          "Cumprir as metas do Plano Nacional de Educação 2026-2036.",
+          "Alfabetizar 80% das crianças na idade certa.",
+          "Expandir a educação em tempo integral, com financiamento pelo Fundeb.",
+          "Ampliar construção de creches e escolas de educação infantil.",
+          "Universalizar o acesso à internet de qualidade nas escolas.",
+          "Fortalecer o Pé-de-Meia contra a evasão no ensino médio.",
+          "Expandir a rede de institutos federais (mais 111 IFs).",
+          "Manter o Piso Nacional do Magistério e apoiar a formação docente.",
+          "Interiorizar a educação superior pública.",
+          "Implantar a Universidade Indígena e a Universidade do Esporte."
+        ],
+        "Segurança": [
+          "Aprovar a PEC da Segurança Pública e criar o Ministério da Segurança Pública.",
+          "Fortalecer o Sistema Único de Segurança Pública (SUSP).",
+          "Manter a asfixia financeira do crime organizado e das milícias.",
+          "Programa Brasil Contra o Crime Organizado, com R$ 10 bilhões para estados e municípios.",
+          "Manter o controle de armas e munições e aprimorar sua rastreabilidade.",
+          "Fortalecer o sistema penitenciário federal e o Plano Pena Justa.",
+          "Ampliar as Forças Integradas de Combate ao Crime Organizado (FICCOs).",
+          "Ampliar câmeras corporais para policiais, com padrões nacionais.",
+          "Expandir o Programa Celular Seguro.",
+          "Reforçar a segurança na Amazônia com radares, drones e satélites."
+        ],
+        "Meio Ambiente": [
+          "Alcançar o desmatamento líquido zero até 2030.",
+          "Implementar o Plano Nacional de Manejo Integrado do Fogo.",
+          "Destinar terras públicas a unidades de conservação e territórios indígenas e quilombolas.",
+          "Cumprir a nova NDC de redução de 59% a 67% das emissões líquidas até 2035.",
+          "Ampliar o financiamento climático (Fundo Clima e Eco Invest).",
+          "Regulamentar o Sistema Brasileiro de Comércio de Emissões (SBCE).",
+          "Aprimorar o Pagamento por Serviços Ambientais (PSA).",
+          "Expandir o monitoramento satelital e IA contra crimes ambientais.",
+          "Institucionalizar a adaptação climática no planejamento público.",
+          "Ampliar a segurança hídrica com revitalização de bacias e cisternas."
+        ],
+        "Emprego": [
+          "Continuar a valorização do salário-mínimo com aumento real anual.",
+          "Assegurar o fim da escala 6x1 e reduzir a jornada para 40 horas sem redução salarial.",
+          "Combater a pejotização espúria com fiscalização.",
+          "Consolidar proteção aos trabalhadores de plataformas.",
+          "Expandir a Plataforma Pública Nacional de Empregabilidade com IA no SINE.",
+          "Implementar a Lei de Igualdade Salarial.",
+          "Fortalecer a erradicação do trabalho escravo e infantil.",
+          "Ampliar crédito, qualificação e assistência a autônomos.",
+          "Fortalecer a economia popular e solidária e as cooperativas.",
+          "Regulamentar a negociação coletiva no setor público."
+        ]
+      },
+      "foto": "assets/fotos/lula.jpg",
+      "redflags": [
+        {
+          "texto": "Condenado em 2017/2018 por corrupção e lavagem no caso do triplex do Guarujá e preso 580 dias (2018–2019); o STF anulou a condenação em 2021 por incompetência da Justiça de Curitiba e suspeição do juiz Sergio Moro.",
+          "fonte": "STF/Agência Brasil, 2021",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2021-03/fachin-anula-condenacoes-de-lula-na-lava-jato"
+        },
+        {
+          "texto": "Condenado por Moro no caso do sítio de Atibaia; a sentença foi anulada pelo STF em 2021 e a denúncia depois rejeitada pela Justiça Federal de Brasília por falta de justa causa.",
+          "fonte": "CNN Brasil/CartaCapital, 2021",
+          "url": "https://www.cnnbrasil.com.br/politica/juiza-de-brasilia-rejeita-denuncia-contra-lula-sobre-sitio-de-atibaia/"
+        },
+        {
+          "texto": "Seu 1º governo foi abalado pelo escândalo do Mensalão (2005), esquema de compra de votos que condenou aliados como José Dirceu; Lula não foi denunciado nem virou réu e negou conhecimento do esquema.",
+          "fonte": "CNN Brasil, 2005–2025",
+          "url": "https://www.cnnbrasil.com.br/politica/mensalao-completa-20-anos-saiba-como-lula-reagiu-ao-escandalo/"
+        }
+      ]
+    },
+    {
+      "id": "renan-santos",
+      "nome": "Renan Santos",
+      "partido": "Partido Missão (origem no MBL)",
+      "numero": "",
+      "cor": "#6d28d9",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Aprovar uma PEC de Transição de ajuste fiscal antes da posse.",
+          "Desindexar benefícios previdenciários e assistenciais do salário mínimo, corrigindo pela inflação.",
+          "Desvincular os pisos de saúde e educação da receita.",
+          "Revisar o abono salarial e reduzir renúncias e isenções fiscais.",
+          "Reformar a Previdência.",
+          "Reformar o funcionalismo público, acabando com supersalários.",
+          "Mudar as regras das emendas parlamentares.",
+          "Substituir o arcabouço fiscal por um novo modelo de finanças públicas.",
+          "Reforma trabalhista para flexibilizar as relações de trabalho.",
+          "Reduzir subsídios e o protecionismo a setores ineficientes."
+        ],
+        "Saúde": [
+          "Criar a ENER, substituindo a fila cronológica por fila baseada no risco do paciente.",
+          "Sistema digital de saúde com telemedicina, diagnóstico por IA e monitoramento clínico.",
+          "Vigilância epidemiológica preditiva em tempo real.",
+          "Criar plataforma de mRNA para vacinas e terapias.",
+          "Integrar o projeto Genomas Brasil ao prontuário eletrônico.",
+          "Criar o PRONTO, prontuário eletrônico nacional interoperável.",
+          "Adotar o modelo Hub-and-Spoke, com centros regionais de referência.",
+          "Criar fundo com repasses aos municípios condicionados ao desempenho.",
+          "Atingir a meta de 80% de resolução na atenção primária."
+        ],
+        "Educação": [
+          "Universalizar o modelo educacional do Ceará em nível nacional.",
+          "Adotar o sistema fônico de alfabetização.",
+          "Priorizar o ensino básico, com foco em português e matemática.",
+          "Ampliar vagas em cursos de STEM no ensino superior.",
+          "Abolir o sistema de cotas, substituindo por bolsas de mérito.",
+          "Criar código de conduta disciplinar nacional para estudantes.",
+          "Transformar escolas em situação crítica em cívico-militares.",
+          "Rever a progressão continuada nas escolas.",
+          "Substituir a autonomia universitária por alinhamento estratégico.",
+          "Criar programa de retenção de talentos para conter a fuga de cérebros."
+        ],
+        "Segurança": [
+          "Declarar uma 'Guerra ao Crime' no primeiro dia de mandato.",
+          "Decretar Estados de Defesa em áreas dominadas por facções para retomada territorial.",
+          "Aprovar Lei Antifacção que permita o banimento judicial de organizações criminosas.",
+          "Inverter o ônus da prova no confisco de bens de membros de facções.",
+          "Criar tribunais especializados e federalizar casos ligados a facções.",
+          "Empregar as Forças Armadas via GLO em territórios dominados.",
+          "Construir superpresídios de segurança máxima (modelo CECOT).",
+          "Retomar o controle de portos, aeroportos e fronteiras com scanners e inteligência.",
+          "Implantar drones e reconhecimento facial em tempo real no patrulhamento.",
+          "Aumentar penas para reincidência e roubo de eletrônicos."
+        ],
+        "Meio Ambiente": [
+          "Implementar a Lei Geral do Licenciamento Ambiental, com Licença Especial para projetos estratégicos.",
+          "Simplificar o licenciamento para a exploração mineral.",
+          "Criar marco da transmissão de energia para eliminar o corte de renováveis no Nordeste.",
+          "Explorar hidrogênio verde, inclusive na bacia amazônica.",
+          "Adotar padrões de mineração responsável e de baixo carbono."
+        ],
+        "Emprego": [
+          "Substituir o Bolsa Família por Frentes Cidadãs, com trabalho remunerado.",
+          "Vincular beneficiários a projetos de bem público, incentivando o emprego formal.",
+          "Flexibilizar a legislação trabalhista.",
+          "Reduzir a litigiosidade da justiça trabalhista.",
+          "Reter, formar e repatriar jovens talentos qualificados."
+        ]
+      },
+      "foto": "assets/fotos/renan-santos.jpg",
+      "redflags": [
+        {
+          "texto": "Réu em ação civil pública do MPF (2026) que pede R$ 500 mil por danos morais coletivos, acusado de discurso de ódio contra etnias indígenas do Baixo Tapajós (PA); sem julgamento definitivo.",
+          "fonte": "MPF/O Tempo, 2026",
+          "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/mpf-processa-candidato-a-presidencia-e-o-mbl-por-discurso-de-odio-contra-indigenas-do-para"
+        },
+        {
+          "texto": "Condenado em 2ª instância pelo TJ-SP (2026) a indenizar a filósofa Djamila Ribeiro em R$ 30 mil por ofensas em rede social; decisão ainda passível de recurso.",
+          "fonte": "CartaCapital/Migalhas, 2026",
+          "url": "https://www.cartacapital.com.br/politica/fundador-do-mbl-e-condenado-a-indenizar-djamila-ribeiro-em-r-30-mil/"
+        },
+        {
+          "texto": "Investigado pelo Ministério Público de SP (Operação Juno Moneta) por suposta lavagem e ocultação de patrimônio via contas de doações e rede de empresas ligadas ao MBL; apuração em andamento, sem condenação.",
+          "fonte": "Metrópoles, 2022",
+          "url": "https://www.metropoles.com/brasil/entenda-por-que-promotoria-investiga-lavagem-de-dinheiro-no-mbl"
+        },
+        {
+          "texto": "Reportagens (Agência Pública, 2026) revelaram que arrecadadores do Partido Missão abordavam cidadãos omitindo o vínculo com o MBL, apresentando a legenda como projeto ambiental; fato noticiado, sem apuração judicial.",
+          "fonte": "Agência Pública, 2026",
+          "url": "https://apublica.org/2026/07/partido-missao-o-projeto-de-poder-de-renan-santos-e-do-mbl/"
+        }
+      ]
+    },
+    {
+      "id": "romeu-zema",
+      "nome": "Romeu Zema",
+      "partido": "NOVO — Partido Novo",
+      "numero": "30",
+      "cor": "#ea580c",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Reformar a Previdência de forma definitiva, com reajuste da idade mínima pela expectativa de vida.",
+          "Ampla Reforma Administrativa, reduzindo ministérios e cargos comissionados.",
+          "Privatizar todas as empresas estatais.",
+          "Ampliar as parcerias público-privadas em todos os serviços, inclusive saúde e educação.",
+          "Vender imóveis e ativos públicos subutilizados.",
+          "Fixar metas progressivas de redução da carga tributária.",
+          "Promover choque fiscal para estabilizar a dívida/PIB e derrubar os juros.",
+          "Reduzir gradualmente o IRPJ e simplificar seu pagamento.",
+          "Depositar R$ 1.000 para cada brasileiro ao nascer, em fundo de ações (programa Sócios do Brasil).",
+          "Buscar a entrada do Brasil na OCDE."
+        ],
+        "Saúde": [
+          "Expandir a telemedicina para reduzir escassez de especialistas e filas.",
+          "Criar registro nacional de saúde unificado, controlado pelo cidadão.",
+          "Garantir interoperabilidade dos dados entre sistemas público e privado.",
+          "Fortalecer a Estratégia de Saúde da Família e a vacinação.",
+          "Reduzir filas do SUS com parcerias com clínicas e hospitais privados.",
+          "Expandir hospitais e UPAs via concessões, PPPs e Organizações Sociais.",
+          "Ampliar vagas de residência médica.",
+          "Modernizar a regulação da ANS para planos com coberturas diferenciadas.",
+          "Reduzir a judicialização com critérios técnicos vinculantes."
+        ],
+        "Educação": [
+          "Ampliar vagas em creches e pré-escolas, com parcerias com o setor privado.",
+          "Fortalecer o Saeb como instrumento de avaliação.",
+          "Ampliar o ensino integral condicionado a resultados.",
+          "Revisar a BNCC, priorizando alfabetização, raciocínio lógico e competências digitais.",
+          "Carreiras docentes baseadas em desempenho.",
+          "Vincular o Pé-de-Meia à frequência e ao desempenho, com nota mínima no Enem.",
+          "Expandir a educação profissional conectada ao mercado.",
+          "Regulamentar o homeschooling e ampliar escolas cívico-militares.",
+          "Substituir a eleição de reitores por escolha técnica.",
+          "Ampliar vagas e bolsas nas áreas de STEM."
+        ],
+        "Segurança": [
+          "Classificar as facções criminosas como organizações terroristas.",
+          "Empregar as Forças Armadas com as polícias para retomar territórios do crime.",
+          "Construir presídios de segurança máxima em regiões remotas.",
+          "Secar as fontes de dinheiro das facções (lavagem, contrabando, garimpo ilegal).",
+          "Prisão preventiva para quem for preso em flagrante pela terceira vez.",
+          "Reduzir a maioridade penal para 16 anos.",
+          "Reformar o Código Penal com penas duras a crimes violentos.",
+          "Prisão efetiva seguida de condicional com monitoramento eletrônico.",
+          "Dar respaldo legal à legítima defesa policial.",
+          "Ampliar delegacias da mulher 24 horas e Patrulhas Maria da Penha."
+        ],
+        "Meio Ambiente": [
+          "Licenciamento ambiental com critérios técnicos e previsibilidade.",
+          "Combater grilagem e desmatamento ilegal com satélite e integração de forças.",
+          "Avançar no Novo Marco do Saneamento para universalizar água e esgoto.",
+          "Simplificar regras para a bioeconomia e o manejo sustentável.",
+          "Conceder parques nacionais para turismo sustentável.",
+          "Criar mercado voluntário de créditos de carbono.",
+          "Atrair investimento privado contra desastres climáticos.",
+          "Expandir reservatórios, barragens e irrigação para segurança hídrica.",
+          "Apoiar municípios em drenagem urbana contra enchentes.",
+          "Educação ambiental baseada em evidências."
+        ],
+        "Emprego": [
+          "Criar regime de contratação alternativo à CLT, com o negociado sobre o legislado.",
+          "Zerar encargos sobre um salário mínimo na contratação de quem estava na informalidade.",
+          "Reduzir contribuições sobre a folha de pagamento.",
+          "Ensino técnico direcionado às vagas reais do mercado, com vouchers.",
+          "Encerrar o monopólio sindical.",
+          "Desregulamentar profissões que não envolvam risco à saúde ou segurança.",
+          "Garantir a comunidades indígenas o direito de exploração econômica de suas terras."
+        ]
+      },
+      "foto": "assets/fotos/romeu-zema.jpg",
+      "redflags": [
+        {
+          "texto": "Denunciado pela PGR ao STJ em maio de 2026 por calúnia contra o ministro do STF Gilmar Mendes, após compartilhar vídeos feitos com IA; denúncia apresentada, ainda sujeita à análise de recebimento.",
+          "fonte": "Agência Brasil/CNN Brasil, 2026",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/pgr-denuncia-zema-por-calunia-contra-gilmar-mendes"
+        },
+        {
+          "texto": "Decreto ambiental que assinou em 2024 favoreceu empresa depois investigada na Operação Rejeito da PF (esquema no licenciamento de mineração em MG); Zema não é alvo formal, mas o decreto é citado na apuração.",
+          "fonte": "Estado de Minas/Gazeta do Povo, 2025",
+          "url": "https://www.em.com.br/politica/2025/09/7251390-decreto-alterado-por-zema-favoreceu-empresa-investigada-na-operacao-rejeito.html"
+        },
+        {
+          "texto": "Investigado pelo Ministério Público do Trabalho desde 2026 por falas em podcast sobre flexibilizar o trabalho infantil, apuradas como possível apologia; procedimento em fase de investigação.",
+          "fonte": "CNN Brasil/O Tempo, 2026",
+          "url": "https://www.cnnbrasil.com.br/blogs/isabel-mega/politica/mpt-abre-investigacao-contra-fala-de-zema-sobre-trabalho-infantil/"
+        }
+      ]
+    },
+    {
+      "id": "ronaldo-caiado",
+      "nome": "Ronaldo Caiado",
+      "partido": "PSD — Partido Social Democrático (vice: Gilberto Kassab)",
+      "numero": "55",
+      "cor": "#157f5f",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Publicar o 'Orçamento da Verdade', com diagnóstico completo das contas públicas.",
+          "Estratégia fiscal plurianual para estabilizar a dívida e recuperar superávits.",
+          "Fazer as despesas obrigatórias crescerem abaixo do PIB, preservando direitos.",
+          "Rever subsídios e benefícios tributários sem resultado.",
+          "Aplicar o teto constitucional em todos os Poderes e combater supersalários.",
+          "Reordenar as emendas parlamentares com critérios de resultado.",
+          "Reduzir o custo do capital ampliando concorrência financeira e crédito longo.",
+          "Elevar a taxa de investimento de ~17% para ~25% do PIB.",
+          "Agenda de produtividade simplificando regras e digitalizando licenças.",
+          "Abrir mercados ampliando acordos comerciais."
+        ],
+        "Saúde": [
+          "Criar sistema nacional que ordene filas por gravidade e risco clínico.",
+          "Reduzir em pelo menos 50% até 2030 o tempo das filas prioritárias.",
+          "Fortalecer a atenção primária com equipe de referência e busca ativa de crônicos.",
+          "Modernizar as UBS com prontuário interoperável e telemedicina.",
+          "Estruturar rede cardiovascular e de AVC com hemodinâmica 24/7.",
+          "Rastreamento organizado do câncer com prazos legais de tratamento.",
+          "Organizar linhas de cuidado da saúde da mulher.",
+          "Criar Passaporte Digital da Criança com alertas de vacinação.",
+          "Buscar cobertura universal do SAMU e expandir tele-UTI.",
+          "Fortalecer a produção nacional de vacinas e medicamentos (Fiocruz, Butantan)."
+        ],
+        "Educação": [
+          "Pacto Nacional pela Alfabetização e Matemática na Idade Certa até o 2º ano.",
+          "Universalizar a pré-escola e ampliar creches para famílias vulneráveis.",
+          "Recompor aprendizagens com diagnóstico por estudante e tutoria.",
+          "Expandir a educação profissional articulada ao ensino médio.",
+          "Elevar o padrão das licenciaturas e restringir cursos de baixa qualidade.",
+          "Selecionar diretores por competência e formação em gestão.",
+          "Ampliar a escola em tempo integral em territórios vulneráveis.",
+          "Bolsa de permanência focalizada contra o abandono escolar.",
+          "Garantir conectividade e dispositivos nas escolas.",
+          "Fortalecer Saeb e Ideb com resultados que gerem ação."
+        ],
+        "Segurança": [
+          "Criar o Ministério da Segurança Pública sob a Presidência.",
+          "Instituir o Sistema Integrado de Proteção à Soberania Nacional.",
+          "Propor Lei do Terrorismo Doméstico enquadrando facções e milícias.",
+          "Penas mais rigorosas para lideranças e financiadores do crime.",
+          "Sistema Nacional de Inteligência Criminal integrando União, estados, MP e Judiciário.",
+          "Asfixiar o crime com perdimento de bens e crime de enriquecimento incompatível.",
+          "Retomar o controle de fronteiras, portos e aeroportos.",
+          "Criar Rede Nacional de Presídios de Segurança Máxima.",
+          "Endurecer as penas de feminicídio e monitorar agressores.",
+          "Aprovar a redução da maioridade penal para 16 anos em crimes graves."
+        ],
+        "Meio Ambiente": [
+          "Criar Pacto Nacional pelo Desenvolvimento Sustentável entre os entes e o setor produtivo.",
+          "Licenciamento ambiental por risco, prazo e objetividade.",
+          "Integrar satélites, drones e IA para monitorar desmatamento e incêndios.",
+          "Implementar o Código Florestal e acelerar a validação do CAR.",
+          "Operacionalizar mercado de carbono regulado de alta integridade.",
+          "Remunerar conservação por Pagamento por Serviços Ambientais.",
+          "Combater desmatamento, grilagem e crimes ambientais, responsabilizando financiadores.",
+          "Sistema nacional de combate a incêndios (Pantanal, Cerrado, Amazônia).",
+          "Criar o programa Água para o Futuro de segurança hídrica.",
+          "Acelerar o saneamento, encerrar lixões e fortalecer a economia circular."
+        ],
+        "Emprego": [
+          "Expandir o ensino técnico conectado às vocações produtivas de cada região.",
+          "Programa nacional de requalificação profissional.",
+          "Modernizar o mercado de trabalho com formação contínua e intermediação digital.",
+          "Reduzir custos que empurram trabalhadores e empresas à informalidade.",
+          "Fortalecer micro e pequenas empresas com crédito e simplificação.",
+          "Reindustrializar para gerar empregos qualificados.",
+          "Incentivar a formação contínua dentro das empresas.",
+          "Fortalecer o Sistema S e os institutos federais na qualificação."
+        ]
+      },
+      "foto": "assets/fotos/ronaldo-caiado.jpg",
+      "redflags": [
+        {
+          "texto": "Condenado em 1ª instância (dez/2024) por abuso de poder político nas eleições municipais de 2024, com pena inicial de 8 anos de inelegibilidade; em 2025 o TRE-GO afastou a inelegibilidade e manteve só multa de R$ 60 mil, decisão ainda sujeita a recurso.",
+          "fonte": "CNN Brasil/Agência Brasil, 2024–2025",
+          "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-04/tre-go-afasta-inelegibilidade-de-governador-ronaldo-caiado"
+        },
+        {
+          "texto": "Reportagens de 2026 apontaram que seu governo repassou cerca de R$ 209 milhões, via a OS Imed, a empresas ligadas a empresário investigado por suposto elo com o PCC; Caiado não é alvo formal e nega ciência.",
+          "fonte": "Metrópoles, 2026",
+          "url": "https://www.metropoles.com/colunas/andreza-matais/gestao-de-caiado-pagou-r-340-milhoes-a-grupo-ligado-ao-pcc"
+        },
+        {
+          "texto": "A gestão movimentou cerca de R$ 1,36 bilhão (2021–2025) pela fintech BK Bank, investigada na Operação Carbono Oculto por suspeita de lavagem e ligação com o PCC, sem imputação direta ao governador até o momento.",
+          "fonte": "Brasil 247, 2026",
+          "url": "https://www.brasil247.com/brasil/gestao-de-ronaldo-caiado-movimentou-r-1-3-bi-em-operacoes-con-fintech-suspeita-de-elo-com-o-pcc"
+        },
+        {
+          "texto": "A PF deflagrou em 2025 a Operação Ilicitantes sobre suposta fraude em licitação da Educação (Fundeb) no seu governo; o alvo dos mandados foi um servidor terceirizado e a Seduc-GO afirma não ser investigada.",
+          "fonte": "Polícia Federal/Mais Goiás, 2025",
+          "url": "https://www.gov.br/pf/pt-br/assuntos/noticias/2025/08/pf-apura-fraudes-em-licitacao-com-recursos-do-fundeb"
+        }
+      ]
+    },
+    {
+      "id": "rui-costa-pimenta",
+      "nome": "Rui Costa Pimenta",
+      "partido": "PCO — Partido da Causa Operária",
+      "numero": "29",
+      "cor": "#7f1d1d",
+      "fonte": "",
+      "foto": "assets/fotos/rui-costa-pimenta.jpg",
+      "propostas": {
+        "Economia": [
+          "Aumento emergencial de 50% de todos os salários e reposição integral das perdas.",
+          "Escala móvel dos salários, com reajuste automático quando o custo de vida subir 3%.",
+          "Fixar salário mínimo vital não inferior a R$ 7.500.",
+          "Anular as dívidas dos trabalhadores com o sistema financeiro.",
+          "Reduzir os juros e acabar com a independência do Banco Central.",
+          "Estatizar o sistema financeiro em um banco estatal único.",
+          "Imposto sobre grandes fortunas e sobre os ganhos dos capitalistas, sem impostos sobre consumo e salários.",
+          "Cancelar as privatizações e reestatizar empresas entregues ao capital (Eletrobras, Vale, bancos).",
+          "Nacionalizar o petróleo com Petrobras 100% estatal.",
+          "Reduzir o preço dos combustíveis em 50% e acabar com a paridade com o dólar.",
+          "Acabar com o teto de gastos e a Lei de Responsabilidade Fiscal.",
+          "Cancelar as dívidas externa e interna com bancos e grandes credores."
+        ],
+        "Saúde": [
+          "Aumentar as verbas para a saúde pública sem limite de gastos.",
+          "Plano de emergência para construir hospitais e postos de saúde no país.",
+          "Retomar o Mais Médicos e validar diplomas de médicos brasileiros e estrangeiros.",
+          "Abrir cursos de medicina e enfermagem com livre acesso nas universidades públicas.",
+          "Garantir piso salarial de R$ 8 mil para os profissionais da saúde."
+        ],
+        "Educação": [
+          "Destinar verbas públicas somente ao ensino público.",
+          "Revogar as reformas contra a educação e o ensino público.",
+          "Acabar com os vestibulares e garantir livre ingresso nas universidades.",
+          "Piso salarial nacional dos professores de pelo menos R$ 8,5 mil.",
+          "Jornada dos professores de no máximo 30 horas semanais.",
+          "Estatizar o ensino pago.",
+          "Eleição direta de diretores e gestão tripartite nas universidades.",
+          "Acabar com a censura e com a proibição de celulares nas escolas."
+        ],
+        "Segurança": [
+          "Dissolver a polícia militar e todo o aparato repressivo.",
+          "Garantir o direito de autodefesa dos trabalhadores da cidade e do campo.",
+          "Formar comitês de autodefesa dos trabalhadores e comunidades indígenas."
+        ],
+        "Meio Ambiente": [],
+        "Emprego": [
+          "Reduzir a jornada para no máximo 7 horas por dia (35h semanais) sem reduzir salários.",
+          "Proibir demissões e permitir controle dos trabalhadores sobre empresas que fecharem.",
+          "Salário-desemprego igual ao último salário para todos os demitidos.",
+          "Proibir despejos e cortes de serviços essenciais para desempregados.",
+          "Passe livre nos transportes para desempregados e trabalhadores informais.",
+          "Cancelar a reforma trabalhista e ampliar a CLT, com fim da terceirização.",
+          "Plano nacional de construção de moradias populares para gerar empregos."
+        ]
+      },
+      "redflags": [
+        {
+          "texto": "Tornou-se réu em ação penal por antissemitismo após a Justiça Federal aceitar denúncia do MPF (representação da Conib) por falas sobre judeus entre 2022 e 2024; em 2026 a Justiça rejeitou pedidos da defesa e manteve o processo.",
+          "fonte": "CNN Brasil/Metrópoles, 2024–2026",
+          "url": "https://www.cnnbrasil.com.br/politica/justica-federal-aceita-denuncia-contra-presidente-do-pco-por-antissemitismo/"
+        },
+        {
+          "texto": "Alvo da Operação Causa Própria da PF, que investiga suposto desvio de cerca de R$ 1,8 milhão do Fundo Partidário e do Fundo Eleitoral (2017–2022) para gráficas por serviços supostamente não prestados; ele nega e chama de perseguição.",
+          "fonte": "CNN Brasil/Poder360, 2026",
+          "url": "https://www.cnnbrasil.com.br/eleicoes/pf-mira-candidato-do-pco-a-presidente-por-suposto-desvio-de-verba-eleitoral/"
+        }
+      ]
+    },
+    {
+      "id": "samara-martins",
+      "nome": "Samara Martins",
+      "partido": "UP — Unidade Popular pelo Socialismo (vice: Raquel Brício)",
+      "numero": "80",
+      "cor": "#db2777",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Aumentar em 100% o salário mínimo já no início do governo.",
+          "Acabar com o Arcabouço Fiscal e o teto de gastos.",
+          "Suspender o pagamento de juros da dívida e fazer auditoria cidadã.",
+          "Nacionalizar os bancos e estatizar o sistema financeiro.",
+          "Imposto sobre grandes fortunas, lucros, dividendos e heranças.",
+          "Isentar totalmente os trabalhadores de IR e a cesta básica de impostos.",
+          "Reestatizar empresas estratégicas (Petrobras 100% estatal, Eletrobras, Vale).",
+          "Monopólio público em energia, mineração, combustíveis e indústria de defesa.",
+          "Proibir a remessa de recursos ao exterior sem autorização do Estado.",
+          "Encampar plantas industriais falidas para gestão cooperativa dos trabalhadores."
+        ],
+        "Saúde": [
+          "Fortalecer e unificar o SUS 100% estatal, sem gestão por OS e fundações.",
+          "Acabar com a exploração dos planos de saúde privados.",
+          "Soberania farmacêutica com laboratórios oficiais e distribuição gratuita.",
+          "Concursos estatutários e aplicação integral dos pisos salariais.",
+          "Obrigar agentes políticos a usarem exclusivamente o SUS.",
+          "Ampliar centros públicos de reabilitação e fornecer órteses e próteses gratuitas."
+        ],
+        "Educação": [
+          "Destinar pelo menos 10% do PIB à educação pública, da creche à pós.",
+          "Revogar o Novo Ensino Médio e restaurar matriz humanística e científica.",
+          "Programa de erradicação do analfabetismo.",
+          "Recompor orçamentos de universidades e institutos federais.",
+          "Suspender verbas públicas ao ensino privado e estatizar grandes conglomerados.",
+          "Federalizar universidades endividadas e anistiar devedores do FIES.",
+          "Valorizar os profissionais com recomposição salarial e concursos.",
+          "Ampliar bolsas de pesquisa e investir em ciência e tecnologia.",
+          "Garantir moradia estudantil, restaurante universitário e transporte."
+        ],
+        "Segurança": [
+          "Desmilitarizar as polícias, unificando-as em estrutura civil e comunitária.",
+          "Formação policial em direitos humanos, não letalidade e antirracismo.",
+          "Acabar com operações truculentas nas periferias.",
+          "Encerrar a 'guerra às drogas', migrando para paradigma de saúde pública.",
+          "Transformar penitenciárias em Unidades de Reeducação.",
+          "Instituir eleição direta para juízes e tribunais superiores.",
+          "Acabar com privilégios e penduricalhos dos magistrados.",
+          "Combater o encarceramento em massa e o abuso da prisão provisória.",
+          "Reformular os Conselhos Comunitários de Segurança em assembleias populares."
+        ],
+        "Meio Ambiente": [
+          "Vincular a reindustrialização a metas de redução de poluentes.",
+          "Transição das matrizes energéticas respeitando a conservação.",
+          "Combater desmatamento, garimpo, grilagem e contaminação por mercúrio.",
+          "Proteger todos os biomas com políticas específicas para cada um.",
+          "Frentes emergenciais de reflorestamento e proteção de nascentes.",
+          "Banir agrotóxicos proibidos no exterior e incentivar a agroecologia.",
+          "Demarcar e dar posse imediata a terras indígenas e quilombolas.",
+          "Submeter decisões sobre terras, rios e minerais à participação popular."
+        ],
+        "Emprego": [
+          "Acabar com a escala 6x1 e reduzir a jornada para 30 horas sem redução salarial.",
+          "Garantir trabalho a todas as pessoas adultas capazes.",
+          "Criar Frentes Emergenciais de Trabalho com empregos públicos diretos.",
+          "Revogar as reformas trabalhista e previdenciária e a terceirização.",
+          "Regulamentar o trabalho em plataformas com remuneração mínima e previdência.",
+          "Concursos públicos regulares e negociação para servidores.",
+          "Combater o trabalho análogo à escravidão, com expropriação.",
+          "Cooperativas de aplicativos sob controle dos trabalhadores.",
+          "Reforma agrária e incentivo à produção camponesa.",
+          "Emprego digno à juventude com carteira assinada."
+        ]
+      },
+      "foto": "assets/fotos/samara-martins.jpg",
+      "redflags": []
+    },
+    {
+      "id": "wilson-grassi",
+      "nome": "Wilson Grassi",
+      "partido": "Democrata (vice: Suêd Haidar)",
+      "numero": "35",
+      "cor": "#52525b",
+      "fonte": "",
+      "propostas": {
+        "Economia": [
+          "Substituir tributos federais sobre folha, faturamento e produção por um Imposto Único sobre movimentação financeira.",
+          "Extinguir nove tributos federais (patronal, Cofins, CSLL, IOF, IPI, salário-educação, Cide, ITR e Sistema S).",
+          "Elevar o limite de isenção do IRPF para cinco salários mínimos.",
+          "Amarrar o limite de isenção do IRPF ao salário mínimo, com correção automática.",
+          "Reduzir o IRPJ de 34% para 25% com a extinção da CSLL.",
+          "Fixar a alíquota do Imposto Único em 2% no débito e 2% no crédito.",
+          "Criar mecanismo de devolução do imposto na cadeia exportadora.",
+          "Restringir a circulação de dinheiro em espécie.",
+          "Enviar a PEC da reforma tributária no primeiro semestre, com estudo de impacto.",
+          "Publicar mensalmente, em painel aberto, a arrecadação do novo tributo."
+        ],
+        "Saúde": [
+          "Criar fila nacional única e pública por procedimento, consultável pelo paciente.",
+          "Implantar mutirão diagnóstico e cirúrgico permanente por resultado.",
+          "Expandir equipes de saúde da família com meta por município.",
+          "Integrar o prontuário eletrônico entre os níveis de atenção.",
+          "Programa nacional de vigilância de zoonoses com meta por município.",
+          "Retomar campanhas nacionais de vacinação antirrábica animal.",
+          "Incluir o médico veterinário nas equipes de vigilância em saúde.",
+          "Atendimento veterinário público a famílias de baixa renda.",
+          "Fortalecer a produção nacional de medicamentos e imunizantes.",
+          "Auditoria pública dos tempos de espera, em série histórica."
+        ],
+        "Educação": [
+          "Endurecer a política federal de alfabetização na idade certa, vinculada a resultado.",
+          "Publicar o dado de alfabetização por escola com transparência total.",
+          "Ampliar a rede federal de educação profissional orientada pela demanda regional.",
+          "Enviar a PEC da Pesquisa, transformando pesquisador de bolsista em servidor.",
+          "Criar carreira federal de pesquisador com ingresso por seleção pública.",
+          "Garantir financiamento estável e plurianual à pesquisa científica.",
+          "Integrar ensino médio, formação técnica e qualificação profissional."
+        ],
+        "Segurança": [
+          "Ampliar o sistema penitenciário federal de segurança máxima para lideranças de facção.",
+          "Bloquear efetivamente o sinal de telefonia nas prisões.",
+          "Deslocar a política federal para a inteligência financeira, asfixiando o crime.",
+          "Vigilância eletrônica contínua nos trechos críticos de fronteira.",
+          "Escaneamento não invasivo de contêineres nos principais portos.",
+          "Cadastro nacional de infratores por maus-tratos a animais.",
+          "Condicionar repasse federal a estado que não alimentar o Sinesp.",
+          "Instalar bases permanentes com efetivo fixo na fronteira.",
+          "Empregar as Forças Armadas na faixa de fronteira contra o tráfico.",
+          "Articular plebiscito sobre o modelo penitenciário de segurança máxima."
+        ],
+        "Meio Ambiente": [
+          "Combater o desmatamento ilegal com rastreabilidade e responsabilização patrimonial.",
+          "Licenciamento ambiental com prazo definido e responsável nomeado.",
+          "Cobrar a universalização do saneamento por prestador.",
+          "Regulamentar a mineração em terra indígena com consentimento e sem mercúrio.",
+          "Adaptação climática com foco em defesa civil, incluindo proteção de animais."
+        ],
+        "Emprego": [
+          "Zerar o custo tributário de contratar, extinguindo a contribuição patronal sobre a folha.",
+          "Consolidar declarações trabalhistas e previdenciárias em envio único no eSocial.",
+          "Prazo legal de resposta da administração, com deferimento automático se estourar.",
+          "Revisar o enquadramento do MEI para eliminar o degrau tributário.",
+          "Abertura, alteração e baixa de empresa em ambiente único e digital.",
+          "Tratamento favorecido ao pequeno porte nas compras públicas federais.",
+          "Financiar qualificação profissional pela demanda de contratação da região."
+        ]
+      },
+      "foto": "assets/fotos/wilson-grassi.jpg",
+      "redflags": []
+    }
+  ]
+}

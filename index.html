@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Propostas · Presidência 2026</title>
+  <meta name="description" content="As propostas dos 12 candidatos à Presidência do Brasil em 2026, resumidas por tema. Feito pra quem não vai ler o plano inteiro." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">Eleição Presidencial · Brasil 2026</p>
+      <h1 class="hero-title">As propostas de quem<br />quer governar o Brasil.</h1>
+      <p class="hero-lead">
+        Os 12 candidatos à Presidência, resumidos por tema — do jeito que dá pra
+        ler no farol vermelho. Cada proposta sai do plano de governo oficial.
+      </p>
+      <div class="hero-faces" id="heroFaces" aria-label="Candidatos"></div>
+      <p class="hero-stat" id="heroStat"></p>
+    </div>
+  </header>
+
+  <nav class="controls" aria-label="Navegação de propostas">
+    <div class="controls-inner">
+      <div class="modos" role="tablist" aria-label="Modo de visualização">
+        <button class="modo ativo" id="modoLista" role="tab" aria-selected="true">Por candidato</button>
+        <button class="modo" id="modoX1" role="tab" aria-selected="false">Comparar (X1)</button>
+      </div>
+      <div class="filtros" id="filtros" aria-label="Filtrar por tema"></div>
+    </div>
+  </nav>
+
+  <main id="lista" class="lista"></main>
+
+  <section id="x1" class="x1" hidden aria-label="Comparação entre dois candidatos">
+    <div class="x1-seletores">
+      <label class="x1-lado" data-lado="A">
+        <span class="x1-tag">Candidato A</span>
+        <select class="x1-select" id="selA" aria-label="Escolher candidato A"></select>
+      </label>
+      <span class="x1-vs" aria-hidden="true">×</span>
+      <label class="x1-lado" data-lado="B">
+        <span class="x1-tag">Candidato B</span>
+        <select class="x1-select" id="selB" aria-label="Escolher candidato B"></select>
+      </label>
+    </div>
+    <div class="x1-arena" id="x1Arena"></div>
+  </section>
+
+  <footer class="rodape">
+    <div class="rodape-inner">
+      <p class="rodape-fonte">
+        Propostas resumidas dos planos de governo registrados no TSE ·
+        atualizado em <span id="atualizado"></span>.
+      </p>
+      <p class="rodape-aviso">
+        Projeto informativo e apartidário. Os textos são resumos objetivos, não citações
+        literais, e a ordem dos candidatos não indica preferência. Confira sempre o plano
+        oficial. Fotos: Wikipédia / Wikimedia Commons.
+      </p>
+      <p class="rodape-aviso">
+        <strong>Sobre as controvérsias:</strong> são fatos noticiados por imprensa ou registros
+        oficiais, com o status jurídico de cada caso e link para a fonte. Investigação ou denúncia
+        não é condenação — vale a presunção de inocência, e o status pode mudar. "Sem registro" significa
+        que não foi encontrado caso de repercussão em fonte confiável, não um atestado de conduta.
+      </p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
