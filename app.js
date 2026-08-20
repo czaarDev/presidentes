@@ -1,12 +1,18 @@
 let DADOS = null;
+let GOV = null;
 let temaAtivo = "Todos";
 let modo = "lista";
 let ladoA = null;
 let ladoB = null;
+const busSel = new Set();
 
 async function carregar() {
-  const res = await fetch("data/candidatos.json");
-  DADOS = await res.json();
+  const [cRes, gRes] = await Promise.all([
+    fetch("data/candidatos.json"),
+    fetch("data/governo.json"),
+  ]);
+  DADOS = await cRes.json();
+  GOV = await gRes.json();
 
   document.getElementById("atualizado").textContent = formatarData(DADOS.atualizadoEm);
 
@@ -22,6 +28,8 @@ async function carregar() {
   montarFiltros();
   montarModos();
   montarSeletoresX1();
+  renderGoverno();
+  montarBussolaTemas();
   render();
 }
 
@@ -70,20 +78,28 @@ function montarHeroFaces() {
 }
 
 /* ---------- Modos ---------- */
+const MODOS = [
+  { modo: "lista", btn: "modoLista", sec: "lista" },
+  { modo: "x1", btn: "modoX1", sec: "x1" },
+  { modo: "governo", btn: "modoGoverno", sec: "governo" },
+  { modo: "bussola", btn: "modoBussola", sec: "bussola" },
+];
 function montarModos() {
-  document.getElementById("modoLista").addEventListener("click", () => trocarModo("lista"));
-  document.getElementById("modoX1").addEventListener("click", () => trocarModo("x1"));
+  MODOS.forEach((m) =>
+    document.getElementById(m.btn).addEventListener("click", () => trocarModo(m.modo))
+  );
 }
 function trocarModo(novo) {
   modo = novo;
-  const emLista = modo === "lista";
-  document.getElementById("modoLista").classList.toggle("ativo", emLista);
-  document.getElementById("modoX1").classList.toggle("ativo", !emLista);
-  document.getElementById("modoLista").setAttribute("aria-selected", emLista);
-  document.getElementById("modoX1").setAttribute("aria-selected", !emLista);
-  document.getElementById("filtros").hidden = !emLista;
-  document.getElementById("lista").hidden = !emLista;
-  document.getElementById("x1").hidden = emLista;
+  MODOS.forEach((m) => {
+    const ativo = m.modo === modo;
+    const btn = document.getElementById(m.btn);
+    btn.classList.toggle("ativo", ativo);
+    btn.setAttribute("aria-selected", ativo);
+    document.getElementById(m.sec).hidden = !ativo;
+  });
+  document.getElementById("filtros").hidden = modo !== "lista";
+  window.scrollTo({ top: document.querySelector(".controls").offsetTop - 1, behavior: "auto" });
   render();
 }
 
@@ -128,7 +144,9 @@ function montarSeletoresX1() {
 /* ---------- Render ---------- */
 function render() {
   if (modo === "lista") renderLista();
-  else renderX1();
+  else if (modo === "x1") renderX1();
+  else if (modo === "bussola") renderBussola();
+  // "governo" é estático (renderizado uma vez no carregar)
 }
 
 function renderLista() {
@@ -258,6 +276,110 @@ function renderX1() {
       ${fighterHeader(b)}
     </div>
     ${mesmo ? `<div class="x1-mesmo">Escolha dois candidatos diferentes para comparar.</div>` : bandas}`;
+}
+
+/* ---------- Balanço do governo ---------- */
+function renderGoverno() {
+  document.getElementById("govTitulo").textContent = GOV.titulo;
+  document.getElementById("govPeriodo").textContent = GOV.periodo;
+  document.getElementById("govNota").textContent = GOV.nota;
+
+  const alvo = document.getElementById("govAreas");
+  alvo.innerHTML = GOV.areas
+    .map((a, i) => {
+      const av = a.pontos.filter((p) => p.tipo === "avanço").length;
+      const pr = a.pontos.filter((p) => p.tipo === "problema").length;
+      const avLabel = `${av} ${av === 1 ? "avanço" : "avanços"}`;
+      const prLabel = `${pr} ${pr === 1 ? "problema" : "problemas"}`;
+      const pontos = a.pontos
+        .map(
+          (p) => `
+        <div class="gov-ponto t-${p.tipo}">
+          <span>${p.texto}</span>
+          ${p.url ? `<a class="gov-ponto-fonte" href="${p.url}" target="_blank" rel="noopener">${p.fonte} ↗</a>` : `<span class="gov-ponto-fonte">${p.fonte}</span>`}
+        </div>`
+        )
+        .join("");
+      return `
+      <details class="gov-area" ${i === 0 ? "open" : ""}>
+        <summary>
+          <span class="gov-area-nome">${a.area}</span>
+          <span class="gov-area-stat">
+            <span class="s-av"><span class="s-dot"></span>${avLabel}</span>
+            <span class="s-pr"><span class="s-dot"></span>${prLabel}</span>
+            <span class="gov-chev" aria-hidden="true">⌄</span>
+          </span>
+        </summary>
+        <div class="gov-pontos">${pontos}</div>
+      </details>`;
+    })
+    .join("");
+}
+
+/* ---------- Bússola do voto ---------- */
+function montarBussolaTemas() {
+  const wrap = document.getElementById("busTemas");
+  wrap.innerHTML = DADOS.temas
+    .map((t) => `<button class="bus-tema" data-tema="${t}" aria-pressed="false">${t}</button>`)
+    .join("");
+  wrap.addEventListener("click", (e) => {
+    const btn = e.target.closest(".bus-tema");
+    if (!btn) return;
+    const t = btn.dataset.tema;
+    if (busSel.has(t)) busSel.delete(t);
+    else busSel.add(t);
+    btn.setAttribute("aria-pressed", busSel.has(t));
+    renderBussola();
+  });
+}
+
+function renderBussola() {
+  const alvo = document.getElementById("busResultado");
+  const temas = [...busSel];
+  if (temas.length === 0) {
+    alvo.innerHTML = `<div class="bus-empty">Escolha ao menos um tema acima para ver o ranking.</div>`;
+    return;
+  }
+
+  const ranking = candidatosValidos()
+    .map((c) => {
+      let total = 0;
+      const porTema = temas.map((t) => {
+        const itens = (c.propostas && c.propostas[t]) || [];
+        total += itens.length;
+        return { tema: t, itens };
+      });
+      return { c, total, porTema };
+    })
+    .sort((a, b) => b.total - a.total);
+
+  alvo.innerHTML = `<div class="bus-rank">${ranking
+    .map((r, i) => {
+      const props = r.porTema
+        .filter((pt) => pt.itens.length)
+        .map(
+          (pt) => `
+        <div>
+          <div class="bus-prop-tema">${pt.tema}</div>
+          ${pt.itens.map((p) => `<div class="bus-prop">${p}</div>`).join("")}
+        </div>`
+        )
+        .join("");
+      return `
+      <article class="bus-card" style="--cor:${corDe(r.c)}">
+        <div class="bus-card-top">
+          <span class="bus-pos">${i + 1}</span>
+          ${faceEl(r.c, "face-md")}
+          <div class="bus-card-id">
+            <div class="bus-card-nome">${r.c.nome}</div>
+            <div class="bus-card-part">${r.c.partido || ""}</div>
+          </div>
+          <span class="bus-count">${r.total} propostas</span>
+        </div>
+        ${props ? `<div class="bus-props">${props}</div>` : ""}
+      </article>`;
+    })
+    .join("")}</div>`;
 }
 
 carregar();

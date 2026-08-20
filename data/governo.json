@@ -1,0 +1,427 @@
+{
+  "titulo": "Balanço do 3º mandato de Lula (PT)",
+  "periodo": "2023 – 2026 (mandato em curso)",
+  "nota": "Balanço factual, com fonte para cada ponto. Verde = avanço, vermelho = problema, cinza = dado neutro/contexto. A seleção busca equilíbrio; não é uma nota ao governo.",
+  "areas": [
+    {
+      "area": "Economia e emprego",
+      "pontos": [
+        {
+          "texto": "O PIB cresceu 3,2% (2023) e 3,4% (2024) e desacelerou para 2,3% (2025) — quatro anos seguidos de expansão.",
+          "tipo": "avanço",
+          "fonte": "IBGE, 2025",
+          "url": "https://www.poder360.com.br/poder-economia/pib-do-brasil-cresce-34-em-2024/"
+        },
+        {
+          "texto": "A desocupação caiu de 6,6% (2024) para 5,6% (2025), menor da série histórica, com recorde de 103 milhões de ocupados.",
+          "tipo": "avanço",
+          "fonte": "IBGE (PNAD Contínua), 2026",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45759-pnad-continua-em-2025-taxa-anual-de-desocupacao-foi-de-5-6-enquanto-taxa-de-subutilizacao-foi-14-5"
+        },
+        {
+          "texto": "O salário mínimo subiu de R$ 1.302 (2023) para R$ 1.621 (2026) pela política de valorização, mas o arcabouço fiscal limitou o ganho real a 2,5% ao ano.",
+          "tipo": "avanço",
+          "fonte": "Lei 14.663/2023 / Agência Gov",
+          "url": "https://agenciagov.ebc.com.br/noticias/202412/presidente-lula-assina-decreto-aumentando-o-salario-minimo-para-r-1-518-00"
+        },
+        {
+          "texto": "A reforma tributária do consumo foi promulgada (EC 132/2023) e regulamentada (LC 214/2025), criando o IVA Dual, com transição até 2033.",
+          "tipo": "avanço",
+          "fonte": "Câmara dos Deputados, 2025",
+          "url": "https://www.camara.leg.br/noticias/1233334-camara-aprova-texto-base-com-regras-para-o-ibs-previsto-na-reforma-tributaria/"
+        },
+        {
+          "texto": "A inflação (IPCA) ficou em 4,62% (2023), estourou o teto em 2024 (4,83%) e recuou a 4,26% (2025), menor em seis anos.",
+          "tipo": "neutro",
+          "fonte": "IBGE, 2026",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025"
+        },
+        {
+          "texto": "O governo cumpriu a meta do arcabouço fiscal em 2024 e 2025 pela regra, mas o resultado cheio de 2025 ficou negativo em R$ 61,7 bilhões (0,48% do PIB).",
+          "tipo": "neutro",
+          "fonte": "Tesouro Nacional, 2026",
+          "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/janeiro/governo-central-cumpre-com-folga-a-meta-fiscal-estabelecida-para-2025-aponta-relatorio-do-tesouro"
+        },
+        {
+          "texto": "Para conter a inflação, o Copom levou a Selic a 15% ao ano em 2025 (maior desde 2006), com leve recuo a 14% em 2026 — juros altos encarecem crédito e dívida.",
+          "tipo": "problema",
+          "fonte": "Banco Central, 2026",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-01/bc-mantem-juros-basicos-em-15-ao-ano-por-quinta-vez-seguida"
+        },
+        {
+          "texto": "A dívida pública bruta subiu de 76,3% (2024) para 78,7% do PIB (2025), e o país pagou pela 1ª vez mais de R$ 1 trilhão em juros em 12 meses (~7,9% do PIB).",
+          "tipo": "problema",
+          "fonte": "Banco Central, 2025",
+          "url": "https://iclnoticias.com.br/economia/divida-publica-alcanca-787-do-pib/"
+        },
+        {
+          "texto": "O real foi a moeda que mais se desvalorizou entre as 20 principais em 2024, com o dólar subindo 27% e fechando a R$ 6,18.",
+          "tipo": "problema",
+          "fonte": "InfoMoney, 2024",
+          "url": "https://www.infomoney.com.br/mercados/dolar-salta-27-e-real-encerra-ano-como-pior-moeda-do-mundo-o-que-esperar-para-2025/"
+        },
+        {
+          "texto": "A carga tributária bruta atingiu 32,32% do PIB em 2024, a maior da série do Tesouro (+2,06 pontos ante 2023).",
+          "tipo": "problema",
+          "fonte": "Tesouro Nacional, 2025",
+          "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2025/marco/carga-tributaria-bruta-do-governo-geral-atingiu-32-32-do-pib-em-2024-mostra-boletim-do-tesouro"
+        },
+        {
+          "texto": "O Congresso derrubou o decreto de Lula que elevava o IOF e rejeitou a MP alternativa (2025) — derrota fiscal com rombo estimado pelo próprio governo em R$ 42,3 bilhões até 2026.",
+          "tipo": "problema",
+          "fonte": "Agência Brasil / Câmara, 2025",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2025-06/plenario-da-camara-derruba-decreto-de-lula-sobre-iof"
+        },
+        {
+          "texto": "A inflação de alimentos fechou 2024 em 8,23%, bem acima do índice geral e pesando no custo de vida (desacelerou em 2025).",
+          "tipo": "problema",
+          "fonte": "IBGE / Agência Brasil, 2025",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2025-02/inflacao-dos-alimentos-e-explicada-por-menos-oferta-diz-ibge"
+        }
+      ]
+    },
+    {
+      "area": "Social e combate à fome",
+      "pontos": [
+        {
+          "texto": "8,6 milhões de pessoas saíram da pobreza entre 2023 e 2024; a taxa de pobreza caiu de 27,3% para 23,1%.",
+          "tipo": "avanço",
+          "fonte": "IBGE (PNAD), 2025",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45344-8-6-milhoes-de-pessoas-sairam-da-pobreza-entre-2023-e-2024"
+        },
+        {
+          "texto": "A extrema pobreza recuou de 4,4% (2023) para 3,5% da população (2024), menor nível da série.",
+          "tipo": "avanço",
+          "fonte": "IBGE / Ipea, 2025",
+          "url": "https://www.ipea.gov.br/portal/categorias/45-todas-as-noticias/noticias/16170-brasil-registrou-em-2024-recorde-de-renda-e-menor-nivel-de-pobreza-e-desigualdade"
+        },
+        {
+          "texto": "A ONU (FAO) tirou o Brasil do Mapa da Fome em 2025, com a subalimentação abaixo de 2,5% da população.",
+          "tipo": "avanço",
+          "fonte": "FAO/ONU (SOFI), 2025",
+          "url": "https://www.fao.org/brasil/noticias/detail-events/en/c/1741586/"
+        },
+        {
+          "texto": "O Índice de Gini de desigualdade caiu para 0,506 em 2024, o menor desde 2012.",
+          "tipo": "avanço",
+          "fonte": "IBGE, 2025",
+          "url": "https://www.brasil247.com/economia/pobreza-extrema-e-desigualdade-de-renda-atingem-menores-niveis-desde-2012-aponta-ibge"
+        },
+        {
+          "texto": "O Minha Casa Minha Vida atingiu a meta de 2 milhões de moradias em 2025, um ano antes do previsto, com R$ 317,78 bilhões investidos.",
+          "tipo": "avanço",
+          "fonte": "Casa Civil / Agência Gov, 2026",
+          "url": "https://agenciagov.ebc.com.br/noticias/202501/minha-casa-minha-vida-fecha-2024-com-1-26-milhao-de-unidades-contratadas-1"
+        },
+        {
+          "texto": "O valor médio do Bolsa Família chegou a ~R$ 680 (2023), o maior da história, com piso de R$ 600 por família.",
+          "tipo": "avanço",
+          "fonte": "Mix Vale, 2025",
+          "url": "https://www.mixvale.com.br/2025/02/21/bolsa-familia-2025-valores-atualizados-mudancas-no-orcamento-e-impactos-sociais/"
+        },
+        {
+          "texto": "O Bolsa Família recuou do pico de 21,8 milhões (2023) para ~18,7 milhões de famílias, com pente-fino de cadastros.",
+          "tipo": "neutro",
+          "fonte": "Exame, 2025",
+          "url": "https://exame.com/brasil/bolsa-familia-o-que-explica-a-saida-de-1-milhao-de-beneficiarios-e-o-futuro-do-programa/"
+        },
+        {
+          "texto": "O governo cancelou mais de 4,1 milhões de benefícios irregulares (2023–2024) e revisou ~4 milhões de cadastros unipessoais, com suspeita de até 500 mil pagamentos indevidos.",
+          "tipo": "problema",
+          "fonte": "gov.br / Mix Vale, 2025",
+          "url": "https://www.mixvale.com.br/2025/06/16/bolsa-familia-2025-corte-de-r-9-bilhoes-foca-em-unipessoais-e-revisa-cadastros/amp/"
+        },
+        {
+          "texto": "Auditoria do TCU (2023) apontou pagamentos irregulares do Bolsa Família a 4,7 milhões de famílias, com prejuízo potencial estimado em R$ 34,2 bilhões; o governo contesta o método de cálculo.",
+          "tipo": "problema",
+          "fonte": "TCU / Poder360, 2023",
+          "url": "https://www.poder360.com.br/justica/tcu-aponta-prejuizo-de-r-342-bi-com-fraudes-no-bolsa-familia/"
+        },
+        {
+          "texto": "O governo suspendeu a concessão do BPC por quase 6 meses em 2025 por mudança no cálculo de renda, represando pedidos e ajudando a fila do INSS a bater cerca de 3 milhões.",
+          "tipo": "problema",
+          "fonte": "INSS / Gazeta do Povo, 2025",
+          "url": "https://www.gazetadopovo.com.br/economia/governo-lula-suspendeu-bpc-quase-6-meses-represou-740-mil-pedidos/"
+        },
+        {
+          "texto": "Relatório da CGU (2024) apontou que mais de 40% das crianças do Bolsa Família (3,5 milhões) não tiveram acompanhamento adequado de saúde e educação (condicionalidades).",
+          "tipo": "problema",
+          "fonte": "CGU / O Tempo, 2025",
+          "url": "https://www.otempo.com.br/politica/governo/2025/1/5/cgu-alerta-para-falhas-no-acompanhamento-e-controle-do-bolsa-familia"
+        }
+      ]
+    },
+    {
+      "area": "Saúde e educação",
+      "pontos": [
+        {
+          "texto": "O Mais Médicos, relançado em 2023, quase dobrou o efetivo: de 13,7 mil para 27,3 mil médicos até 2025.",
+          "tipo": "avanço",
+          "fonte": "Ministério da Saúde, 2025",
+          "url": "https://pt.org.br/efeito-lula-com-reformulacao-do-mais-medicos-programa-atinge-patamar-recorde/"
+        },
+        {
+          "texto": "Em 2025 o Farmácia Popular passou a ter 41 itens 100% gratuitos, com beneficiários subindo de 20,7 mi (2022) para 24,7 mi (2024).",
+          "tipo": "avanço",
+          "fonte": "Ministério da Saúde, 2025",
+          "url": "https://agenciagov.ebc.com.br/noticias/202502/ministerio-da-saude-anuncia-100-de-gratuidade-no-farmacia-popular-e-abre-credenciamento-a-todos-os-municipios-do-pais"
+        },
+        {
+          "texto": "A cobertura vacinal contra pólio subiu de 71% (2021) para 90,4% (2024), revertendo a queda anterior.",
+          "tipo": "avanço",
+          "fonte": "Ministério da Saúde (Unicef), 2024",
+          "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2024-04/cobertura-vacinal-contra-polio-no-brasil-melhora-diz-unicef"
+        },
+        {
+          "texto": "O MEC informou queda de 43% no abandono do ensino médio após o Pé-de-Meia, de 6,4% (2024) para 3,6% (2025).",
+          "tipo": "avanço",
+          "fonte": "Ministério da Educação, 2026",
+          "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/marco/apos-dois-anos-de-pe-de-meia-abandono-escolar-cai-43"
+        },
+        {
+          "texto": "O orçamento das universidades federais subiu 45,1% em quatro anos, de R$ 66,9 bi (2022) para R$ 97,1 bi (2026).",
+          "tipo": "avanço",
+          "fonte": "Ministério da Educação, 2026",
+          "url": "https://www.gov.br/mec/pt-br/assuntos/noticias/2026/marco/universidades-federais-tem-alta-de-45-1-no-orcamento-desde-2022"
+        },
+        {
+          "texto": "O programa Agora Tem Especialistas (filas do SUS) só foi institucionalizado em out/2025, com resultados ainda localizados.",
+          "tipo": "neutro",
+          "fonte": "Agência Brasil, 2025",
+          "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2025-10/lula-sanciona-mp-que-acelera-atendimento-de-especialistas-no-sus"
+        },
+        {
+          "texto": "O TCU apontou que o Pé-de-Meia foi pago fora do arcabouço fiscal (falta de transparência) e achou ~20 mil indícios de irregularidade, incluindo pagamentos a falecidos.",
+          "tipo": "problema",
+          "fonte": "TCU, 2025",
+          "url": "https://www12.senado.leg.br/radio/1/noticia/2025/06/10/oposicao-alerta-para-fim-de-prazo-do-tcu-sobre-pe-de-meia"
+        },
+        {
+          "texto": "Em 2025, contingenciamento reteve R$ 300 mi de universidades e institutos federais, e a recomposição negociada (R$ 400 mi) foi menor que a de 2023 e 2024.",
+          "tipo": "problema",
+          "fonte": "Agência Brasil / PROIFES, 2025",
+          "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2025-05/mec-fara-recomposicao-de-r-400-milhoes-do-orcamento-das-universidades"
+        },
+        {
+          "texto": "Em 2024 o Brasil teve a maior epidemia de dengue da história: 6,4 milhões de casos e cerca de 5.972 mortes (+414% ante 2023), em surto ligado também a fatores climáticos.",
+          "tipo": "problema",
+          "fonte": "Ministério da Saúde / Agência Brasil, 2025",
+          "url": "https://agenciabrasil.ebc.com.br/saude/noticia/2025-01/casos-de-dengue-em-2024-passam-de-64-milhoes-mortes-somam-59-mil"
+        },
+        {
+          "texto": "A fila por cirurgias eletivas no SUS cresceu 26% em 2024, com mais de 1,3 milhão de pessoas esperando e tempo médio de cerca de 2 anos e 4 meses (apesar de recorde de cirurgias realizadas).",
+          "tipo": "problema",
+          "fonte": "Fehosp / Revista Oeste, 2025",
+          "url": "https://revistaoeste.com/saude/espera-por-cirurgia-no-sus-cresce-26-e-atinge-13-milhao-de-brasileiros-em-2024/"
+        },
+        {
+          "texto": "A crise sanitária Yanomami persistiu: mesmo após a emergência de 2023, houve 428 óbitos (2023) e 337 (2024) no território, e o garimpo ilegal voltou a avançar em 2024.",
+          "tipo": "problema",
+          "fonte": "Ministério da Saúde / Greenpeace, 2025",
+          "url": "https://www.gov.br/saude/pt-br/assuntos/noticias/2025/maio/com-expansao-da-assistencia-obitos-no-territorio-yanomami-caem-21-em-2024"
+        },
+        {
+          "texto": "Docentes das universidades e institutos federais fizeram greve de mais de dois meses em 2024, após proposta inicial do governo de reajuste zero para o ano.",
+          "tipo": "problema",
+          "fonte": "Agência Brasil, 2024",
+          "url": "https://agenciabrasil.ebc.com.br/educacao/noticia/2024-06/professores-de-universidades-e-instituicoes-federais-encerram-greve"
+        }
+      ]
+    },
+    {
+      "area": "Meio ambiente",
+      "pontos": [
+        {
+          "texto": "O desmatamento na Amazônia caiu para 5.796 km² em 2025 (−11% ante 2024), menor em 11 anos e ~50% abaixo de 2022.",
+          "tipo": "avanço",
+          "fonte": "INPE/MMA, 2025",
+          "url": "https://www.gov.br/mma/pt-br/noticias/em-2025-desmatamento-tem-reducao-de-11-08-na-amazonia-e-11-49-no-cerrado"
+        },
+        {
+          "texto": "O Fundo Amazônia foi reativado após 4 anos e recebeu ~R$ 990 milhões em doações em 2024, cinco vezes mais que em 2023.",
+          "tipo": "avanço",
+          "fonte": "Portal Amazônia, 2024",
+          "url": "https://portalamazonia.com/economia-na-amazonia/fundo-amazonia-r-882-milhoes-aprovados-em-2024-mas-apenas-11-repassados-a-projetos/"
+        },
+        {
+          "texto": "O Brasil sediou a COP30 em Belém (nov/2025), 1ª conferência climática da ONU no país, com foco em financiamento e transição.",
+          "tipo": "avanço",
+          "fonte": "Agência Brasil/ONU, 2025",
+          "url": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2025-11/cop30-financiamento-transicao-e-adaptacao-sao-centro-das-negociacoes"
+        },
+        {
+          "texto": "O governo retomou as demarcações e homologou 16 terras indígenas entre 2023 e 2025, após seis anos de paralisação.",
+          "tipo": "avanço",
+          "fonte": "Funai/Agência Brasil, 2025",
+          "url": "https://www.gov.br/funai/pt-br/assuntos/noticias/2025/presidente-lula-homologa-tres-terras-indigenas-do-ceara-total-de-territorio-regularizados-chega-a-16-na-atual-gestao"
+        },
+        {
+          "texto": "O Brasil teve 278 mil focos de incêndio em 2024 (+46,5% ante 2023), pior marca em 10 anos, em meio à seca severa.",
+          "tipo": "problema",
+          "fonte": "INPE via Exame, 2024",
+          "url": "https://exame.com/esg/brasil-fecha-2024-com-aumento-de-46-nos-incendios-e-bate-recorde-dos-ultimos-10-anos/"
+        },
+        {
+          "texto": "O Cerrado concentrou 52% de todo o desmatamento do país em 2024, sendo o bioma mais desmatado em área absoluta.",
+          "tipo": "problema",
+          "fonte": "MapBiomas/INPE, 2024–2025",
+          "url": "https://agribrasilis.com/2025/09/29/cerrado-desmatamento-brasil/"
+        },
+        {
+          "texto": "Em 2025 o Ibama liberou a Petrobras para perfurar na Margem Equatorial (Foz do Amazonas), decisão que contrasta com o discurso climático na COP30.",
+          "tipo": "problema",
+          "fonte": "Agência Brasil, 2025",
+          "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2025-10/petrobras-recebe-licenca-do-ibama-para-perfurar-margem-equatorial"
+        },
+        {
+          "texto": "O Pantanal teve cerca de 17% do bioma queimado em 2024 (14.498 focos pelo INPE, maior número desde 2020).",
+          "tipo": "problema",
+          "fonte": "INPE / Campo Grande News, 2024",
+          "url": "https://www.campograndenews.com.br/meio-ambiente/em-2024-pantanal-teve-17-da-area-total-queimada"
+        },
+        {
+          "texto": "As queimadas de 2024 deixaram São Paulo com o pior ar do mundo por três dias seguidos, e estados amazônicos tiveram até 138 dias de ar nocivo à saúde.",
+          "tipo": "problema",
+          "fonte": "IPAM / IQAir via CNN, 2024",
+          "url": "https://ipam.org.br/estados-da-amazonia-tiveram-ate-138-dias-de-ar-nocivo-a-saude-apos-sequencia-de-queimadas/"
+        },
+        {
+          "texto": "O licenciamento da pavimentação da BR-319 avançou sob críticas: nota técnica do próprio Ministério do Meio Ambiente (2025) estimou que a obra pode quadruplicar o desmatamento na região.",
+          "tipo": "problema",
+          "fonte": "MMA/Ibama via Agência Pública, 2026",
+          "url": "https://apublica.org/2026/04/asfaltamento-da-br-319-o-primeiro-atropelo-da-lei-da-devastacao/"
+        }
+      ]
+    },
+    {
+      "area": "Segurança e instituições",
+      "pontos": [
+        {
+          "texto": "Os homicídios dolosos caíram 6,3% em 2024 (35.365 casos), mantendo a queda desde o pico de 2020.",
+          "tipo": "avanço",
+          "fonte": "Fórum Bras. de Segurança / MJSP, 2025",
+          "url": "https://www.gov.br/mj/pt-br/assuntos/noticias/mapa-da-seguranca-publica-2025-brasil-reduz-homicidios-dolosos-e-bate-recorde-em-apreensoes-de-drogas"
+        },
+        {
+          "texto": "A Operação Carbono Oculto (2025) mirou esquema do PCC em combustíveis e fintechs que movimentou pelo menos R$ 26 bilhões.",
+          "tipo": "avanço",
+          "fonte": "Receita Federal / MP-SP, 2025",
+          "url": "https://www.canalrural.com.br/economia/operacao-carbono-oculto-mira-fintechs-e-empresas-ligadas-a-esquema-no-mercado-de-combustiveis/"
+        },
+        {
+          "texto": "O STF condenou mais de 800 pessoas pelos atos do 8 de Janeiro até 2025, incluindo os núcleos centrais da trama golpista.",
+          "tipo": "neutro",
+          "fonte": "STF / Migalhas, 2025–2026",
+          "url": "https://www.migalhas.com.br/quentes/447475/tres-anos-apos-8-de-janeiro-stf-ja-condenou-mais-de-800-envolvidos"
+        },
+        {
+          "texto": "A PEC da Segurança Pública foi aprovada na Câmara em 2026 (dando status constitucional ao SUSP), mas seguiu ao Senado sem a redução da maioridade penal.",
+          "tipo": "neutro",
+          "fonte": "Senado / Câmara, 2026",
+          "url": "https://www12.senado.leg.br/noticias/materias/2026/03/05/camara-aprova-pec-da-seguranca-texto-sera-analisado-pelo-senado"
+        },
+        {
+          "texto": "As operações expuseram a infiltração do crime organizado na economia legal, com o PCC usando fintechs como bancos paralelos.",
+          "tipo": "problema",
+          "fonte": "Receita Federal / CNN, 2025",
+          "url": "https://www.cnnbrasil.com.br/nacional/sudeste/sp/crime-organizado-chegou-a-60-moteis-diz-receita-federal-sobre-o-pcc/"
+        },
+        {
+          "texto": "A Operação Sem Desconto (2025) revelou descontos não autorizados em aposentadorias do INSS que lesaram ~6 milhões de pessoas em até R$ 6,3 bilhões — maior escândalo do governo.",
+          "tipo": "problema",
+          "fonte": "CGU / Polícia Federal, 2025",
+          "url": "https://www.gov.br/cgu/pt-br/assuntos/noticias/2025/04/fraude-no-inss-aposentados-e-pensionistas-tiveram-quase-r-6-3-bi-em-descontos-sem-autorizacao"
+        },
+        {
+          "texto": "O impasse das emendas parlamentares expôs baixa previsibilidade orçamentária: o STF suspendeu repasses sem rastreabilidade e exigiu plano de transparência.",
+          "tipo": "problema",
+          "fonte": "STF / Poder360, 2024",
+          "url": "https://noticias.stf.jus.br/postsnoticias/decisoes-do-stf-reforcam-transparencia-na-destinacao-de-emendas-parlamentares/"
+        },
+        {
+          "texto": "Os municípios da Amazônia Legal sob influência de facções saltaram de 178 (2023) para 344 (2025), alta de 93%, com forte expansão do Comando Vermelho.",
+          "tipo": "problema",
+          "fonte": "Fórum Bras. de Segurança Pública, 2025",
+          "url": "https://fontesegura.forumseguranca.org.br/municipios-da-amazonia-sob-influencia-de-faccoes-criminosas-aumentam-32-e-chegam-a-344-em-2025-aponta-estudo-do-forum-brasileiro-de-seguranca-publica/"
+        },
+        {
+          "texto": "Os gastos do governo federal com cartão corporativo somaram R$ 430 mi (2023) e R$ 584 mi (2024), rumo a recorde da série, com boa parte das despesas sob sigilo.",
+          "tipo": "problema",
+          "fonte": "Gazeta do Povo / InfoMoney, 2025",
+          "url": "https://www.gazetadopovo.com.br/republica/por-que-o-governo-lula-caminha-para-um-recorde-de-gastos-no-cartao-corporativo/"
+        },
+        {
+          "texto": "O custo de custeio da máquina federal subiu de R$ 63,2 bilhões (2023) para R$ 72,7 bilhões (2025), com o governo mantendo 38 ministérios.",
+          "tipo": "problema",
+          "fonte": "Poder360 / Gazeta do Povo, 2025",
+          "url": "https://www.poder360.com.br/poder-economia/despesa-para-governo-funcionar-soma-r-62-bi-a-maior-em-5-anos/"
+        }
+      ]
+    },
+    {
+      "area": "Relações exteriores",
+      "pontos": [
+        {
+          "texto": "O Brasil presidiu o BRICS em 2025 e sediou a cúpula no Rio, com foco no Sul Global e no Fundo Florestas Tropicais para Sempre.",
+          "tipo": "avanço",
+          "fonte": "Agência Gov, 2025",
+          "url": "https://agenciagov.ebc.com.br/noticias/202507/lula-abre-cupula-do-brics-com-apelo-por-investimentos-para-a-paz-e-seguranca"
+        },
+        {
+          "texto": "O acordo Mercosul–União Europeia foi concluído politicamente em 2024, após 25 anos, e teve a assinatura autorizada pela UE em 2026.",
+          "tipo": "avanço",
+          "fonte": "Agência Brasil / EEAS, 2024–2026",
+          "url": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/lula-assina-decreto-que-promulga-acordo-ue-mercosul"
+        },
+        {
+          "texto": "Lula fez visitas de Estado à China e assinou dezenas de acordos, com o comércio bilateral batendo recorde de US$ 157 bilhões em 2023.",
+          "tipo": "avanço",
+          "fonte": "Agência Brasil, 2023–2024",
+          "url": "https://agenciabrasil.ebc.com.br/internacional/noticia/2023-04/lula-e-xi-jinping-assinam-15-acordos-de-parceria-em-pequim"
+        },
+        {
+          "texto": "A cúpula do BRICS de 2025 no Rio teve ausência de líderes-chave, como Xi Jinping e Putin, apontada como esvaziamento.",
+          "tipo": "neutro",
+          "fonte": "Euronews, 2025",
+          "url": "https://euronews.com/2025/07/06/brics-summit-opens-in-brazil-with-key-leaders-notably-absent"
+        },
+        {
+          "texto": "Os EUA de Trump elevaram a 50% a tarifa sobre produtos brasileiros em 2025 (citando o julgamento de Bolsonaro); Lula reagiu com a Lei da Reciprocidade e depois negociou a redução.",
+          "tipo": "problema",
+          "fonte": "BBC, 2025–2026",
+          "url": "https://feeds.bbci.co.uk/news/articles/c62dvyv60z7o"
+        },
+        {
+          "texto": "Sobre a Ucrânia, Lula manteve neutralidade, mas a fala de que 'Putin e Zelensky estão gostando da guerra' (2024) gerou crítica e o descartou como mediador.",
+          "tipo": "problema",
+          "fonte": "Agência Brasil, 2024",
+          "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2024-06/lula-diz-que-putin-e-zelensky-estao-gostando-da-guerra"
+        },
+        {
+          "texto": "Em 2024, Lula comparou a ofensiva de Israel em Gaza ao Holocausto, o que levou Israel a declará-lo persona non grata e abriu crise diplomática.",
+          "tipo": "problema",
+          "fonte": "The Times of Israel, 2024",
+          "url": "https://www.timesofisrael.com/israel-declares-brazils-lula-persona-non-grata-for-comparing-gaza-war-to-holocaust/"
+        },
+        {
+          "texto": "Após ofensas de Javier Milei a Lula, o Brasil rebaixou a relação diplomática com a Argentina, dispensando o embaixador argentino em Brasília (2026).",
+          "tipo": "problema",
+          "fonte": "CartaCapital / InfoMoney, 2026",
+          "url": "https://www.cartacapital.com.br/politica/apos-ofensas-de-milei-a-lula-itamaraty-rebaixa-relacao-diplomatica-com-argentina/"
+        },
+        {
+          "texto": "O governo enviou representação à posse de Maduro (2025) mesmo sem validar a eleição contestada da Venezuela, gesto criticado como reconhecimento tácito, em meio a crise com Caracas.",
+          "tipo": "problema",
+          "fonte": "Gazeta do Povo / Brasil de Fato, 2024-2025",
+          "url": "https://www.gazetadopovo.com.br/republica/reconhecimento-explicito-lula-enviara-embaixadora-para-posse-de-maduro-na-venezuela/"
+        },
+        {
+          "texto": "Após o tarifaço dos EUA, as exportações de café (−29%) e carne bovina (−66%) para os EUA despencaram em set/2025, embora o total exportado tenha batido recorde via realocação para a China.",
+          "tipo": "problema",
+          "fonte": "CNN Brasil / Gazeta do Povo, 2025",
+          "url": "https://www.gazetadopovo.com.br/agronegocio/tarifaco-cafe-carne-precos-brasil/"
+        }
+      ]
+    }
+  ]
+}

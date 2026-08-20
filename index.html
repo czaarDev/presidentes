@@ -29,6 +29,8 @@
       <div class="modos" role="tablist" aria-label="Modo de visualização">
         <button class="modo ativo" id="modoLista" role="tab" aria-selected="true">Por candidato</button>
         <button class="modo" id="modoX1" role="tab" aria-selected="false">Comparar (X1)</button>
+        <button class="modo" id="modoGoverno" role="tab" aria-selected="false">Balanço do governo</button>
+        <button class="modo" id="modoBussola" role="tab" aria-selected="false">Bússola do voto</button>
       </div>
       <div class="filtros" id="filtros" aria-label="Filtrar por tema"></div>
     </div>
@@ -49,6 +51,35 @@
       </label>
     </div>
     <div class="x1-arena" id="x1Arena"></div>
+  </section>
+
+  <section id="governo" class="governo" hidden aria-label="Balanço do governo atual">
+    <header class="gov-head">
+      <h2 class="gov-titulo" id="govTitulo"></h2>
+      <p class="gov-periodo" id="govPeriodo"></p>
+      <p class="gov-nota" id="govNota"></p>
+      <div class="gov-legenda">
+        <span class="leg"><span class="leg-dot leg-avanco"></span> Avanço</span>
+        <span class="leg"><span class="leg-dot leg-problema"></span> Problema</span>
+        <span class="leg"><span class="leg-dot leg-neutro"></span> Neutro / contexto</span>
+      </div>
+    </header>
+    <div class="gov-areas" id="govAreas"></div>
+  </section>
+
+  <section id="bussola" class="bussola" hidden aria-label="Bússola do voto">
+    <header class="bus-head">
+      <h2 class="bus-titulo">Bússola do voto</h2>
+      <p class="bus-lead">
+        Marque os temas que mais importam <strong>pra você</strong>. Os candidatos são ordenados por
+        quantas propostas concretas apresentaram nesses temas — quem mais detalhou o que te interessa.
+      </p>
+      <p class="bus-aviso">
+        Isto <strong>não diz em quem votar</strong>. É um atalho pra você ler as propostas certas e decidir.
+      </p>
+    </header>
+    <div class="bus-temas" id="busTemas" role="group" aria-label="Escolha seus temas"></div>
+    <div class="bus-resultado" id="busResultado"></div>
   </section>
 
   <footer class="rodape">
